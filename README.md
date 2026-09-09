@@ -43,24 +43,11 @@
 
 ### 📌 Featured Projects
 
-<p align="left">
-  <a href="https://github.com/hungdeniubeo/Busbooking">
-    <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=hungdeniubeo&repo=Busbooking&theme=tokyonight" />
-  </a>
-  <a href="https://github.com/hungdeniubeo/Schedulework">
-    <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=hungdeniubeo&repo=Schedulework&theme=tokyonight" />
-  </a>
-</p>
-
-<br clear="left"/>
-
-<p align="left">
-  <a href="https://github.com/hungdeniubeo/hungdeniubeo.github.io">
-    <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=hungdeniubeo&repo=hungdeniubeo.github.io&theme=tokyonight" />
-  </a>
-</p>
-
-<br clear="left"/>
+| Project | Description | Tech |
+|---|---|---|
+| 🚌 [**Busbooking**](https://github.com/hungdeniubeo/Busbooking) | Online bus ticket booking web app with a React frontend and a REST API backend. | `JavaScript` `React` |
+| 🗓️ [**Schedulework**](https://github.com/hungdeniubeo/Schedulework) | Offline desktop app for employee shift scheduling with drag-and-drop planning, conflict detection, and schedule export. | `Tauri` `React` `TypeScript` |
+| 🌐 [**hungdeniubeo.github.io**](https://github.com/hungdeniubeo/hungdeniubeo.github.io) | Personal portfolio website, built with HTML, CSS & JavaScript, hosted on GitHub Pages. | `HTML` `CSS` `JavaScript` |
 
 ---
 
