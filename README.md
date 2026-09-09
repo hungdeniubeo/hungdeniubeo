@@ -48,52 +48,62 @@
 
 ### 🚀 About Me
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<div align="center">
 
-#### 👨‍💻 Who I Am
+<h3>🛠️ IT Support → 💻 Software Development → 🤖 AI</h3>
 
-🛠️ Currently working as **IT Support**
+<p>
+I currently work in <b>IT Support</b>, where I troubleshoot systems,
+solve technical problems, and help things run smoothly.
+</p>
 
-🤖 Passionate about **AI & Software Development**
+<p>
+Outside of work, I enjoy turning ideas and repetitive tasks into
+<b>code, automation, and practical AI-powered tools</b>.
+</p>
 
-🌐 Interested in **Web Development, Backend & Automation**
+</div>
 
-💡 I enjoy solving technical problems and building useful tools.
+<br>
 
-</td>
+<p align="center">
+  <img src="https://img.shields.io/badge/NOW-IT%20Support-2E9EF7?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/BUILDING-Coding%20Projects-8E2DE2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LEARNING-Backend%20%26%20AI-FF2E88?style=for-the-badge" />
+</p>
 
-<td width="50%" valign="top">
+<br>
 
-#### 🎯 What I'm Working Toward
+#### 🔭 What I'm doing now
 
-📚 Improving my skills in **Python, Java, JavaScript & TypeScript**
+- 🛠️ Working with **IT systems, troubleshooting, and technical support**
+- 💻 Building personal projects to improve my **software development skills**
+- ⚙️ Exploring ways to automate repetitive tasks with code
+- 🤖 Experimenting with practical **AI-powered applications**
 
-⚙️ Learning more about **Backend Development & AI Applications**
+#### 🧠 What I'm learning
 
-🚀 Building personal coding projects to gain more experience
+<p>
+  <code>Python</code>
+  <code>Java</code>
+  <code>JavaScript</code>
+  <code>TypeScript</code>
+  <code>Backend</code>
+  <code>REST APIs</code>
+  <code>Automation</code>
+  <code>AI</code>
+</p>
 
-🎯 Goal: Grow into a **Software / AI Developer**
+#### 🎯 Where I'm heading
 
-</td>
-</tr>
-</table>
+> My goal is to combine my real-world IT experience with software development
+> and AI to build tools that solve practical problems.
 
 <div align="center">
 
-### ⚡ Current Focus
+<br>
 
-<img src="https://img.shields.io/badge/IT%20Support-2E9EF7?style=for-the-badge&logo=windows&logoColor=white" />
-<img src="https://img.shields.io/badge/AI-8E2DE2?style=for-the-badge&logo=openai&logoColor=white" />
-<img src="https://img.shields.io/badge/Software%20Development-FF2E88?style=for-the-badge&logo=github&logoColor=white" />
-<img src="https://img.shields.io/badge/Automation-6C5CE7?style=for-the-badge&logo=githubactions&logoColor=white" />
-
-<br><br>
-
-<i>✨ I like fixing problems — whether it's a computer issue or a bug in my code. ✨</i>
-
-</div>
+**✨ Fix problems. Automate the boring stuff. Build something better. ✨**
 
 </div>
 
