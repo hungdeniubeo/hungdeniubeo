@@ -45,18 +45,13 @@
 
 ```yaml
 name: Phi Hung (hungdeniubeo)
-role: Final-year Software Engineering Student
-interests:
-  - AI
-  - Web Development
-  - Open Source
-languages:
-  - Python
-  - Java
-  - JavaScript
-  - TypeScript
-currently: Building cool stuff & breaking things (then fixing them)
-fun_fact: "Code. Sleep. Repeat. 💭"
+role: IT Support
+passionate_about: [AI, Software Development, Automation]
+languages: [Python, Java, JavaScript, TypeScript]
+interests: [AI Development, Web Development, Backend Development]
+currently: Working in IT Support and building coding projects
+goal: Become a Software / AI Developer
+fun_fact: "I like fixing problems — whether it's a computer issue or a bug in my code."
 ```
 
 <div align="center">
