@@ -1,12 +1,10 @@
 <div align="center">
 
 <img
-  src="https://capsule-render.vercel.app/api?type=waving&color=0:2E9EF7,50:8E2DE2,100:FF2E88&height=190&section=header&text=Hi%20There!%20I'm%20Hung%20%F0%9F%91%8B&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=IT%20Support%20%7C%20AI%20and%20Software%20Development%20Enthusiast&descAlignY=56&descSize=17"
+  src="https://capsule-render.vercel.app/api?type=waving&color=0:2E9EF7,50:8E2DE2,100:FF2E88&height=150&section=header&text=Hi%20There!%20I'm%20Hung%20%F0%9F%91%8B&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=IT%20Support%20%7C%20AI%20and%20Software%20Development%20Enthusiast&descAlignY=54&descSize=15"
   width="100%"
   alt="Hung Nguyen"
 />
-
-<br>
 
 <b>🛠️ IT Support</b>
 &nbsp; • &nbsp;
@@ -14,13 +12,11 @@
 &nbsp; • &nbsp;
 <b>💻 Software Development</b>
 
-<br><br>
+<br>
 
-<i>
-Interested in AI, Web Development, Backend Development and Automation.
-</i>
+<i>Interested in AI, Web Development, Backend Development and Automation.</i>
 
-<br><br>
+<br>
 
 <a href="https://www.facebook.com/phi.hung.794694">
   <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook" />
@@ -35,7 +31,7 @@ Interested in AI, Web Development, Backend Development and Automation.
   <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" />
 </a>
 
-<br><br>
+<br>
 
 <img
   src="https://komarev.com/ghpvc/?username=hungdeniubeo&label=Profile%20Views&color=8E2DE2&style=flat-square"
