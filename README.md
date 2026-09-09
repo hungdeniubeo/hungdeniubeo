@@ -88,7 +88,7 @@ Personal portfolio site, built and hosted on GitHub Pages.
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hungdeniubeo&theme=radical&hide_border=true&background=0d1117&stroke=2E9EF7&ring=8E2DE2&fire=FF2E88" />
+  <img src="https://streak-stats.demolab.com/?user=hungdeniubeo&theme=radical&hide_border=true&background=0d1117&stroke=2E9EF7&ring=8E2DE2&fire=FF2E88" />
 </p>
 
 <p align="center">
