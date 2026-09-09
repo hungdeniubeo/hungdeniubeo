@@ -1,7 +1,7 @@
 <div align="center">
 
 <img
-  src="https://capsule-render.vercel.app/api?type=waving&color=0:2E9EF7,50:8E2DE2,100:FF2E88&height=190&section=header&text=Hi%20There!%20I'm%20Hung%20%F0%9F%91%8B&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=IT%20Support%20%7C%20AI%20%26%20Software%20Development%20Enthusiast&descAlignY=56&descSize=17"
+  src="https://capsule-render.vercel.app/api?type=waving&color=0:2E9EF7,50:8E2DE2,100:FF2E88&height=190&section=header&text=Hi%20There!%20I'm%20Hung%20%F0%9F%91%8B&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=IT%20Support%20%7C%20AI%20and%20Software%20Development%20Enthusiast&descAlignY=56&descSize=17"
   width="100%"
   alt="Hung Nguyen"
 />
