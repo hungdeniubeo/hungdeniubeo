@@ -1,40 +1,49 @@
 <div align="center">
 
 <img
-  src="https://capsule-render.vercel.app/api?type=soft&color=0:2E9EF7,50:8E2DE2,100:FF2E88&height=230&section=header&text=Hi%20There!%20I'm%20Hung%20%F0%9F%91%8B&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Final-year%20Software%20Engineering%20Student%20%E2%9C%A8&descAlignY=55&descSize=18"
+  src="https://capsule-render.vercel.app/api?type=waving&color=0:2E9EF7,50:8E2DE2,100:FF2E88&height=190&section=header&text=Hi%20There!%20I'm%20Hung%20%F0%9F%91%8B&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=IT%20Support%20%7C%20AI%20%26%20Software%20Development%20Enthusiast&descAlignY=56&descSize=17"
   width="100%"
-  alt="Hung profile header"
-/>
-
-<img
-  src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=2E9EF7&center=true&vCenter=true&width=600&lines=%F0%9F%92%BB+Code.+Sleep.+Repeat.;Python+%7C+Java+%7C+JavaScript+Developer;AI+%26+Web+Dev+Enthusiast;Open-source+Contributor+%F0%9F%9A%80"
-  alt="Typing introduction"
+  alt="Hung Nguyen"
 />
 
 <br>
 
+<b>🛠️ IT Support</b>
+&nbsp; • &nbsp;
+<b>🤖 AI Enthusiast</b>
+&nbsp; • &nbsp;
+<b>💻 Software Development</b>
+
+<br><br>
+
+<i>
+Interested in AI, Web Development, Backend Development and Automation.
+</i>
+
+<br><br>
+
 <a href="https://www.facebook.com/phi.hung.794694">
-  <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+  <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook" />
 </a>
 <a href="https://www.youtube.com/@phihung3922-t6f">
-  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
+  <img src="https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="YouTube" />
 </a>
 <a href="https://www.tiktok.com/@hungdeniubeo">
-  <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok" />
+  <img src="https://img.shields.io/badge/TikTok-000000?style=flat-square&logo=tiktok&logoColor=white" alt="TikTok" />
 </a>
 <a href="mailto:phihung3922@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" />
 </a>
 
 <br><br>
 
 <img
-  src="https://komarev.com/ghpvc/?username=hungdeniubeo&label=Profile%20Views&color=FF2E88&style=for-the-badge"
-  alt="Profile views"
+  src="https://komarev.com/ghpvc/?username=hungdeniubeo&label=Profile%20Views&color=8E2DE2&style=flat-square"
+  alt="Profile Views"
 />
 <img
-  src="https://img.shields.io/github/followers/hungdeniubeo?label=Followers&style=for-the-badge&color=8E2DE2&logo=github"
-  alt="GitHub followers"
+  src="https://img.shields.io/github/followers/hungdeniubeo?label=Followers&style=flat-square&color=2E9EF7&logo=github"
+  alt="GitHub Followers"
 />
 
 </div>
