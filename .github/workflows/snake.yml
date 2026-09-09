@@ -26,6 +26,9 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      - name: Fix dist permissions
+        run: sudo chown -R "$(id -u):$(id -g)" dist
+
       - name: Generate 3D contribution calendar
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
