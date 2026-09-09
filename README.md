@@ -48,20 +48,52 @@
 
 ### 🚀 About Me
 
-```yaml
-name: Phi Hung (hungdeniubeo)
-role: IT Support
-passionate_about: [AI, Software Development, Automation]
-languages: [Python, Java, JavaScript, TypeScript]
-interests: [AI Development, Web Development, Backend Development]
-currently: Working in IT Support and building coding projects
-goal: Become a Software / AI Developer
-fun_fact: "I like fixing problems — whether it's a computer issue or a bug in my code."
-```
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 👨‍💻 Who I Am
+
+🛠️ Currently working as **IT Support**
+
+🤖 Passionate about **AI & Software Development**
+
+🌐 Interested in **Web Development, Backend & Automation**
+
+💡 I enjoy solving technical problems and building useful tools.
+
+</td>
+
+<td width="50%" valign="top">
+
+#### 🎯 What I'm Working Toward
+
+📚 Improving my skills in **Python, Java, JavaScript & TypeScript**
+
+⚙️ Learning more about **Backend Development & AI Applications**
+
+🚀 Building personal coding projects to gain more experience
+
+🎯 Goal: Grow into a **Software / AI Developer**
+
+</td>
+</tr>
+</table>
 
 <div align="center">
 
-**✨ Code. Learn. Build. Improve. Repeat. ✨**
+### ⚡ Current Focus
+
+<img src="https://img.shields.io/badge/IT%20Support-2E9EF7?style=for-the-badge&logo=windows&logoColor=white" />
+<img src="https://img.shields.io/badge/AI-8E2DE2?style=for-the-badge&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/Software%20Development-FF2E88?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/Automation-6C5CE7?style=for-the-badge&logo=githubactions&logoColor=white" />
+
+<br><br>
+
+<i>✨ I like fixing problems — whether it's a computer issue or a bug in my code. ✨</i>
+
+</div>
 
 </div>
 
