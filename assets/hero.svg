@@ -12,6 +12,20 @@
       <stop offset="52%" stop-color="#8E2DE2"/>
       <stop offset="100%" stop-color="#4DEEEA"/>
     </linearGradient>
+    <linearGradient id="sweepBloom" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2E9EF7" stop-opacity="0"/>
+      <stop offset="32%" stop-color="#8E2DE2" stop-opacity=".06"/>
+      <stop offset="52%" stop-color="#ffffff" stop-opacity=".2"/>
+      <stop offset="70%" stop-color="#4DEEEA" stop-opacity=".08"/>
+      <stop offset="100%" stop-color="#4DEEEA" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sweepCore" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8E2DE2" stop-opacity="0"/>
+      <stop offset="42%" stop-color="#bca7ff" stop-opacity=".08"/>
+      <stop offset="51%" stop-color="#ffffff" stop-opacity=".38"/>
+      <stop offset="60%" stop-color="#9ffcff" stop-opacity=".12"/>
+      <stop offset="100%" stop-color="#4DEEEA" stop-opacity="0"/>
+    </linearGradient>
     <radialGradient id="blueAura">
       <stop offset="0%" stop-color="#2E9EF7" stop-opacity="0.28"/>
       <stop offset="100%" stop-color="#2E9EF7" stop-opacity="0"/>
@@ -30,8 +44,14 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+    <filter id="sweepSoftGlow" x="-35%" y="-20%" width="170%" height="140%">
+      <feGaussianBlur stdDeviation="11"/>
+    </filter>
     <clipPath id="panelClip">
       <rect x="24" y="20" width="1152" height="320" rx="26"/>
+    </clipPath>
+    <clipPath id="bannerClip">
+      <rect width="1200" height="360" rx="30"/>
     </clipPath>
   </defs>
 
@@ -88,4 +108,27 @@
   </g>
 
   <path d="M48 70V44H74 M1126 44H1152V70 M48 290V316H74 M1126 316H1152V290" fill="none" stroke="#4DEEEA" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+
+  <g clip-path="url(#bannerClip)" pointer-events="none">
+    <g transform="skewX(-18)">
+      <rect x="-520" y="-30" width="250" height="420" fill="url(#sweepBloom)" filter="url(#sweepSoftGlow)">
+        <animate attributeName="x"
+                 values="-520;1550;1550"
+                 keyTimes="0;0.25;1"
+                 keySplines="0.22 0.61 0.36 1;0 0 1 1"
+                 calcMode="spline"
+                 dur="6.2s"
+                 repeatCount="indefinite"/>
+      </rect>
+      <rect x="-450" y="-30" width="110" height="420" fill="url(#sweepCore)">
+        <animate attributeName="x"
+                 values="-450;1620;1620"
+                 keyTimes="0;0.25;1"
+                 keySplines="0.22 0.61 0.36 1;0 0 1 1"
+                 calcMode="spline"
+                 dur="6.2s"
+                 repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
 </svg>
