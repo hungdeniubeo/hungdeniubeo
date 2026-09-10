@@ -1,171 +1,91 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">Hung Nguyen profile banner</title>
-  <desc id="desc">Animated banner for Hung Nguyen showing IT Support, Software Development, and AI.</desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Hung Nguyen developer profile</title>
+  <desc id="desc">A dark futuristic banner showing Hung Nguyen's journey from IT Support through Software Development toward AI.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="50%" stop-color="#111827"/>
-      <stop offset="100%" stop-color="#0d1117"/>
+      <stop offset="52%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#090d14"/>
     </linearGradient>
-
-    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="journey" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#2E9EF7"/>
-      <stop offset="50%" stop-color="#8E2DE2"/>
-      <stop offset="100%" stop-color="#FF2E88"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="-0.45 0;0.45 0;-0.45 0" dur="4s" repeatCount="indefinite"/>
+      <stop offset="52%" stop-color="#8E2DE2"/>
+      <stop offset="100%" stop-color="#4DEEEA"/>
     </linearGradient>
-
-    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#2E9EF7" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#FF2E88" stop-opacity="0"/>
-    </linearGradient>
-
-    <radialGradient id="blueGlow">
-      <stop offset="0%" stop-color="#2E9EF7" stop-opacity="0.55"/>
+    <radialGradient id="blueAura">
+      <stop offset="0%" stop-color="#2E9EF7" stop-opacity="0.28"/>
       <stop offset="100%" stop-color="#2E9EF7" stop-opacity="0"/>
     </radialGradient>
-
-    <radialGradient id="pinkGlow">
-      <stop offset="0%" stop-color="#FF2E88" stop-opacity="0.40"/>
+    <radialGradient id="pinkAura">
+      <stop offset="0%" stop-color="#FF2E88" stop-opacity="0.18"/>
       <stop offset="100%" stop-color="#FF2E88" stop-opacity="0"/>
     </radialGradient>
-
-    <radialGradient id="purpleGlow">
-      <stop offset="0%" stop-color="#8E2DE2" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#8E2DE2" stop-opacity="0"/>
-    </radialGradient>
-
-    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="7" result="b"/>
-      <feMerge>
-        <feMergeNode in="b"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <filter id="bigGlow" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="14" result="b"/>
-      <feMerge>
-        <feMergeNode in="b"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#c9d1d9" stroke-opacity="0.045" stroke-width="1"/>
     </pattern>
-
-    <clipPath id="cardClip">
-      <rect x="50" y="36" width="1100" height="248" rx="24"/>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="panelClip">
+      <rect x="24" y="20" width="1152" height="320" rx="26"/>
     </clipPath>
   </defs>
 
-  <rect width="1200" height="320" rx="26" fill="url(#bg)"/>
-  <rect width="1200" height="320" rx="26" fill="url(#grid)"/>
+  <rect width="1200" height="360" rx="30" fill="url(#background)"/>
+  <rect width="1200" height="360" rx="30" fill="url(#grid)"/>
 
-  <!-- Moving background glows -->
-  <g opacity="0.95">
-    <circle cx="140" cy="80" r="180" fill="url(#blueGlow)">
-      <animate attributeName="cx" values="140;220;140" dur="5s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="80;110;80" dur="5s" repeatCount="indefinite"/>
-    </circle>
-
-    <circle cx="1020" cy="250" r="210" fill="url(#pinkGlow)">
-      <animate attributeName="cx" values="1020;960;1020" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="250;220;250" dur="6s" repeatCount="indefinite"/>
-    </circle>
-
-    <circle cx="620" cy="40" r="140" fill="url(#purpleGlow)">
-      <animate attributeName="cy" values="40;78;40" dur="4.5s" repeatCount="indefinite"/>
-      <animate attributeName="r" values="140;165;140" dur="4.5s" repeatCount="indefinite"/>
-    </circle>
+  <g clip-path="url(#panelClip)">
+    <circle cx="120" cy="54" r="245" fill="url(#blueAura)"/>
+    <circle cx="1080" cy="310" r="260" fill="url(#pinkAura)"/>
   </g>
 
-  <!-- Main card -->
-  <rect x="50" y="36" width="1100" height="248" rx="24" fill="#0d1117" fill-opacity="0.48" stroke="url(#neon)" stroke-width="1.6" stroke-opacity="0.9"/>
+  <rect x="24" y="20" width="1152" height="320" rx="26" fill="#0d1117" fill-opacity="0.28" stroke="url(#journey)" stroke-width="1.5"/>
 
-  <!-- Scan line across the card -->
-  <g clip-path="url(#cardClip)">
-    <rect x="-250" y="0" width="250" height="320" fill="url(#scan)" opacity="0.26" transform="skewX(-22)">
-      <animate attributeName="x" values="-320;1280" dur="3.2s" repeatCount="indefinite"/>
-    </rect>
-  </g>
-
-  <!-- Floating particles -->
-  <g filter="url(#softGlow)">
-    <circle cx="1115" cy="56" r="4" fill="#2E9EF7">
-      <animate attributeName="cy" values="56;46;56" dur="2.3s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.35;1;0.35" dur="2.3s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1144" cy="80" r="3.5" fill="#FF2E88">
-      <animate attributeName="cy" values="80;65;80" dur="2.8s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;0.28;1" dur="2.8s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1088" cy="97" r="3" fill="#8E2DE2">
-      <animate attributeName="cy" values="97;83;97" dur="2.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- Left decorative bars -->
-  <g opacity="0.88">
-    <rect x="92" y="90" width="6" height="120" rx="3" fill="#2E9EF7" filter="url(#bigGlow)">
-      <animate attributeName="height" values="120;105;120" dur="1.8s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="90;97;90" dur="1.8s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="108" y="106" width="6" height="92" rx="3" fill="#8E2DE2" filter="url(#bigGlow)">
-      <animate attributeName="height" values="92;112;92" dur="1.6s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="106;96;106" dur="1.6s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="124" y="122" width="6" height="64" rx="3" fill="#FF2E88" filter="url(#bigGlow)">
-      <animate attributeName="height" values="64;80;64" dur="1.3s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="122;114;122" dur="1.3s" repeatCount="indefinite"/>
-    </rect>
-  </g>
-
-  <!-- Text content -->
   <g font-family="Arial, Helvetica, sans-serif">
-    <text x="600" y="104" text-anchor="middle" font-size="46" font-weight="700" fill="#ffffff" filter="url(#softGlow)">
-      Hi, I&apos;m Hung 👋
-      <animate attributeName="opacity" values="0.96;1;0.96" dur="2.4s" repeatCount="indefinite"/>
-    </text>
-
-    <text x="600" y="145" text-anchor="middle" font-size="22" font-weight="700" fill="url(#neon)">
-      IT Support → Software Development → AI
-    </text>
-
-    <text x="600" y="184" text-anchor="middle" font-size="17" fill="#c9d1d9">
-      I fix problems, automate repetitive work, and build practical tools.
-    </text>
-
-    <text x="600" y="209" text-anchor="middle" font-size="16" fill="#8b949e">
-      Exploring backend development, automation, and AI-powered applications.
-    </text>
-  </g>
-
-  <!-- Animated pills -->
-  <g font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" text-anchor="middle">
-    <g transform="translate(318 231)">
-      <rect width="150" height="38" rx="19" fill="#2E9EF7" fill-opacity="0.12" stroke="#2E9EF7" stroke-opacity="0.9">
-        <animate attributeName="fill-opacity" values="0.12;0.23;0.12" dur="2.4s" repeatCount="indefinite"/>
-      </rect>
-      <text x="75" y="24" fill="#79c0ff">🛠 IT Support</text>
+    <g font-size="12" font-weight="700" letter-spacing="2.5">
+      <text x="62" y="59" fill="#79c0ff">HUNG NGUYEN / PROFILE</text>
+      <text x="1138" y="59" text-anchor="end" fill="#8b949e">IT → DEV → AI</text>
     </g>
 
-    <g transform="translate(488 231)">
-      <rect width="190" height="38" rx="19" fill="#8E2DE2" fill-opacity="0.12" stroke="#8E2DE2" stroke-opacity="0.9">
-        <animate attributeName="fill-opacity" values="0.12;0.23;0.12" dur="2.4s" begin="0.5s" repeatCount="indefinite"/>
-      </rect>
-      <text x="95" y="24" fill="#d2a8ff">💻 Software Dev</text>
-    </g>
+    <text x="600" y="133" text-anchor="middle" fill="#ffffff" font-size="56" font-weight="700" letter-spacing="1.6">HUNG NGUYEN</text>
+    <text x="600" y="177" text-anchor="middle" fill="url(#journey)" font-size="24" font-weight="700" letter-spacing="1.1">IT SUPPORT → SOFTWARE DEVELOPMENT → AI</text>
+    <text x="600" y="211" text-anchor="middle" fill="#b7c3d7" font-size="17">I fix problems, automate repetitive work, and build practical tools.</text>
 
-    <g transform="translate(698 231)">
-      <rect width="128" height="38" rx="19" fill="#FF2E88" fill-opacity="0.12" stroke="#FF2E88" stroke-opacity="0.9">
-        <animate attributeName="fill-opacity" values="0.12;0.23;0.12" dur="2.4s" begin="1s" repeatCount="indefinite"/>
-      </rect>
-      <text x="64" y="24" fill="#ff9ac4">🤖 AI</text>
+    <text x="62" y="278" fill="#8b949e" font-size="11" font-weight="700" letter-spacing="2.2">TRAJECTORY</text>
+
+    <g text-anchor="middle">
+      <text x="180" y="308" fill="#79c0ff" font-size="16" font-weight="700" letter-spacing="1.3">IT SUPPORT</text>
+      <text x="180" y="328" fill="#8b949e" font-size="10" font-weight="700" letter-spacing="1.8">CURRENT</text>
+
+      <text x="600" y="308" fill="#d2a8ff" font-size="16" font-weight="700" letter-spacing="1.3">SOFTWARE DEVELOPMENT</text>
+      <text x="600" y="328" fill="#8b949e" font-size="10" font-weight="700" letter-spacing="1.8">BUILDING</text>
+
+      <text x="1020" y="308" fill="#7ee7e4" font-size="16" font-weight="700" letter-spacing="1.3">AI</text>
+      <text x="1020" y="328" fill="#8b949e" font-size="10" font-weight="700" letter-spacing="1.8">EXPLORING</text>
     </g>
   </g>
+
+  <g>
+    <line x1="180" y1="274" x2="1020" y2="274" stroke="#263349" stroke-width="6" stroke-linecap="round"/>
+    <line x1="180" y1="274" x2="1020" y2="274" stroke="url(#journey)" stroke-width="2" stroke-linecap="round" stroke-dasharray="840" stroke-dashoffset="840">
+      <animate attributeName="stroke-dashoffset" values="840;0;0" keyTimes="0;0.9;1" dur="6.6s" repeatCount="indefinite"/>
+    </line>
+
+    <g fill="#0d1117" stroke-width="3">
+      <circle cx="180" cy="274" r="8" stroke="#2E9EF7"/>
+      <circle cx="600" cy="274" r="8" stroke="#8E2DE2"/>
+      <circle cx="1020" cy="274" r="8" stroke="#4DEEEA"/>
+    </g>
+
+    <circle cx="180" cy="274" r="5" fill="#2E9EF7" filter="url(#glow)">
+      <animate attributeName="cx" values="180;600;1020;1020" keyTimes="0;0.48;0.96;1" dur="6.6s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#2E9EF7;#8E2DE2;#4DEEEA;#4DEEEA" keyTimes="0;0.48;0.96;1" dur="6.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <path d="M48 70V44H74 M1126 44H1152V70 M48 290V316H74 M1126 316H1152V290" fill="none" stroke="#4DEEEA" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
 </svg>
