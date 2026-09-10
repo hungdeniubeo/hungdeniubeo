@@ -91,35 +91,60 @@ I work in **IT Support**, where I troubleshoot systems and solve real technical 
 
 ---
 
-### 📊 GitHub Stats
+## 📊 GitHub Dashboard
 
 <p align="center">
-  <img width="100%" src="./assets/cyber-stats-header.svg" alt="Neon Cyber GitHub Stats header" />
+  <img width="100%" src="./assets/cyber-stats-header.svg" alt="Neon Cyber Dashboard Header" />
 </p>
 
 <p align="center">
-  <img width="98%" src="./profile-summary-card-output/radical/0-profile-details.svg" alt="GitHub profile details" />
+  <img src="https://img.shields.io/badge/STATUS-Building%20Everyday-8A2BE2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/FOCUS-Software%20Development-FF2E88?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/INTEREST-AI%20%26%20Automation-00CFFF?style=for-the-badge" />
 </p>
 
 <p align="center">
-  <img width="49%" src="./profile-summary-card-output/radical/1-repos-per-language.svg" alt="Repositories per language" />
-  <img width="49%" src="./profile-summary-card-output/radical/2-most-commit-language.svg" alt="Most commit language" />
+  <b>⚡ Personal activity dashboard — code, languages, productivity, and contribution flow.</b>
 </p>
 
-<p align="center">
-  <img width="49%" src="./profile-summary-card-output/radical/3-stats.svg" alt="GitHub statistics" />
-  <img width="49%" src="./profile-summary-card-output/radical/4-productive-time.svg" alt="Productive time" />
-</p>
+<table align="center">
+  <tr>
+    <td colspan="2" align="center">
+      <img width="98%" src="./profile-summary-card-output/radical/0-profile-details.svg" alt="GitHub profile details" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <sub><b>🧠 Language Distribution</b></sub><br/>
+      <img width="100%" src="./profile-summary-card-output/radical/1-repos-per-language.svg" alt="Repositories per language" />
+    </td>
+    <td align="center" width="50%">
+      <sub><b>🔥 Commit Language Focus</b></sub><br/>
+      <img width="100%" src="./profile-summary-card-output/radical/2-most-commit-language.svg" alt="Most commit language" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <sub><b>📈 GitHub Performance</b></sub><br/>
+      <img width="100%" src="./profile-summary-card-output/radical/3-stats.svg" alt="GitHub statistics" />
+    </td>
+    <td align="center" width="50%">
+      <sub><b>⏱️ Productive Time</b></sub><br/>
+      <img width="100%" src="./profile-summary-card-output/radical/4-productive-time.svg" alt="Productive time" />
+    </td>
+  </tr>
+</table>
 
 <p align="center">
-  <img width="100%" src="./assets/cyber-stats-divider.svg" alt="Animated neon divider" />
+  <img width="100%" src="./assets/cyber-stats-divider.svg" alt="Animated divider" />
 </p>
 
 <div align="center">
 
-🏆 **Achievements:** 🦈 Pull Shark &nbsp;•&nbsp; 🤝 YOLO
+### 🏆 Achievement Signals
+🦈 **Pull Shark** &nbsp;&nbsp;•&nbsp;&nbsp; 🤝 **YOLO**
 
-</div>
+</div> 
 
 ---
 
