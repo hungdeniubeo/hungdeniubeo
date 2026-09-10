@@ -2,8 +2,10 @@ name: Generate GitHub Summary Cards
 
 on:
   workflow_dispatch:
+
   schedule:
     - cron: "15 0 * * *"
+
   push:
     branches:
       - main
@@ -20,15 +22,15 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
-      - - name: Generate profile summary cards
-  uses: vn7n24fzkq/github-profile-summary-cards@release
-  env:
-    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  with:
-    USERNAME: ${{ github.repository_owner }}
-    THEME: radical
-    ANIMATION: rgb-soft
-    DURATION: 8
-    UTC_OFFSET: 7
+      - name: Generate profile summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          THEME: radical
+          ANIMATION: rgb-soft
+          DURATION: 8
+          UTC_OFFSET: 7
