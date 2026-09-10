@@ -109,6 +109,15 @@ I work in **IT Support**, where I troubleshoot systems and solve real technical 
 
 <table align="center">
   <tr>
+    <td align="center">⚙️ <b>Systems</b><br/><sub>IT Support mindset</sub></td>
+    <td align="center">💻 <b>Code</b><br/><sub>React • TS • Java</sub></td>
+    <td align="center">🤖 <b>AI</b><br/><sub>Automation & tooling</sub></td>
+    <td align="center">📚 <b>Growth</b><br/><sub>Learning by building</sub></td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
     <td colspan="2" align="center">
       <img width="98%" src="./profile-summary-card-output/radical/0-profile-details.svg" alt="GitHub profile details" />
     </td>
