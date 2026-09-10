@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="190" viewBox="0 0 320 190" role="img" aria-labelledby="title desc">
+  <title id="title">Busbooking</title>
+  <desc id="desc">Online bus ticket booking web app with a React frontend and REST API backend.</desc>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2E9EF7"/>
+      <stop offset="100%" stop-color="#4DEEEA"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0%" stop-color="#2E9EF7" stop-opacity=".28"/>
+      <stop offset="100%" stop-color="#2E9EF7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="320" height="190" rx="18" fill="#0d1117"/>
+  <circle cx="286" cy="24" r="92" fill="url(#aura)"/>
+  <rect x=".75" y=".75" width="318.5" height="188.5" rx="17.25" fill="none" stroke="url(#edge)" stroke-width="1.5" stroke-opacity=".72"/>
+  <path d="M18 12H302" stroke="url(#edge)" stroke-width="2" stroke-dasharray="90 32">
+    <animate attributeName="stroke-dashoffset" values="0;-122" dur="8s" repeatCount="indefinite"/>
+  </path>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="20" y="31" fill="#79c0ff" font-size="10" font-weight="700" letter-spacing="1.8">01 / WEB APPLICATION</text>
+    <text x="20" y="68" fill="#ffffff" font-size="25" font-weight="700">BUSBOOKING</text>
+    <text x="20" y="94" fill="#c9d1d9" font-size="13">Online bus ticket booking</text>
+    <text x="20" y="114" fill="#8b949e" font-size="11">React frontend + REST API backend</text>
+    <g font-size="10" font-weight="700" text-anchor="middle">
+      <g transform="translate(20 143)">
+        <rect width="78" height="25" rx="12.5" fill="#2E9EF7" fill-opacity=".12" stroke="#2E9EF7" stroke-opacity=".7"/>
+        <text x="39" y="16.5" fill="#79c0ff">JAVASCRIPT</text>
+      </g>
+      <g transform="translate(106 143)">
+        <rect width="56" height="25" rx="12.5" fill="#4DEEEA" fill-opacity=".1" stroke="#4DEEEA" stroke-opacity=".7"/>
+        <text x="28" y="16.5" fill="#7ee7e4">REACT</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(253 34)" fill="none" stroke="url(#edge)" stroke-width="2" stroke-linecap="round" filter="url(#glow)">
+    <path d="M0 27C12 27 12 4 25 4S38 27 51 27"/>
+    <circle cx="0" cy="27" r="3" fill="#2E9EF7"/>
+    <circle cx="25" cy="4" r="3" fill="#4DEEEA"/>
+    <circle cx="51" cy="27" r="3" fill="#2E9EF7"/>
+  </g>
+</svg>
