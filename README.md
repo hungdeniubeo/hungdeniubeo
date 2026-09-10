@@ -94,6 +94,10 @@ I work in **IT Support**, where I troubleshoot systems and solve real technical 
 ### 📊 GitHub Stats
 
 <p align="center">
+  <img width="100%" src="./assets/cyber-stats-header.svg" alt="Neon Cyber GitHub Stats header" />
+</p>
+
+<p align="center">
   <img width="98%" src="./profile-summary-card-output/radical/0-profile-details.svg" alt="GitHub profile details" />
 </p>
 
@@ -105,6 +109,10 @@ I work in **IT Support**, where I troubleshoot systems and solve real technical 
 <p align="center">
   <img width="49%" src="./profile-summary-card-output/radical/3-stats.svg" alt="GitHub statistics" />
   <img width="49%" src="./profile-summary-card-output/radical/4-productive-time.svg" alt="Productive time" />
+</p>
+
+<p align="center">
+  <img width="100%" src="./assets/cyber-stats-divider.svg" alt="Animated neon divider" />
 </p>
 
 <div align="center">
