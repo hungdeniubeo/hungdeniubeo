@@ -1,150 +1,101 @@
-<svg viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Neon Cyber Energy GitHub Stats">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub telemetry dashboard</title>
+  <desc id="desc">Animated cyber dashboard header with blue, purple, and cyan signal graphics.</desc>
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070012"/>
-      <stop offset="50%" stop-color="#120022"/>
-      <stop offset="100%" stop-color="#05000c"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="52%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#090d14"/>
     </linearGradient>
-
-    <linearGradient id="strokeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00F5FF">
-        <animate attributeName="stop-color" values="#00F5FF;#7B61FF;#FF3CAC;#FF7A18;#00F5FF" dur="6s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="50%" stop-color="#FF3CAC">
-        <animate attributeName="stop-color" values="#FF3CAC;#FF7A18;#00F5FF;#7B61FF;#FF3CAC" dur="6s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#FF7A18">
-        <animate attributeName="stop-color" values="#FF7A18;#00F5FF;#7B61FF;#FF3CAC;#FF7A18" dur="6s" repeatCount="indefinite"/>
-      </stop>
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2E9EF7"/>
+      <stop offset="50%" stop-color="#8E2DE2"/>
+      <stop offset="100%" stop-color="#4DEEEA"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.25 0;0.25 0;-0.25 0" dur="7s" repeatCount="indefinite"/>
     </linearGradient>
-
-    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00F5FF"/>
-      <stop offset="50%" stop-color="#FF3CAC"/>
-      <stop offset="100%" stop-color="#FF7A18"/>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2E9EF7" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#4DEEEA" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#8E2DE2" stop-opacity="0"/>
     </linearGradient>
-
+    <radialGradient id="blueAura">
+      <stop offset="0%" stop-color="#2E9EF7" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#2E9EF7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="purpleAura">
+      <stop offset="0%" stop-color="#8E2DE2" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#8E2DE2" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#c9d1d9" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-
-    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="10" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="12"/>
     </filter>
-
-    <filter id="textGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+    <clipPath id="panelClip">
+      <rect x="30" y="22" width="1140" height="196" rx="24"/>
+    </clipPath>
   </defs>
-
-  <!-- Background -->
-  <rect width="1200" height="220" rx="26" fill="url(#bg)"/>
-
-  <!-- Ambient glow orbs -->
-  <circle cx="130" cy="65" r="38" fill="#FF7A18" opacity="0.18" filter="url(#softGlow)">
-    <animate attributeName="opacity" values="0.10;0.22;0.10" dur="2.2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="1080" cy="70" r="36" fill="#00F5FF" opacity="0.16" filter="url(#softGlow)">
-    <animate attributeName="opacity" values="0.08;0.20;0.08" dur="2.8s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Main cyber border -->
-  <rect x="18" y="18" width="1164" height="184" rx="22"
-        fill="none" stroke="url(#strokeGrad)" stroke-width="3.2" filter="url(#glow)">
-    <animate attributeName="stroke-opacity" values="0.70;1;0.72;1;0.70" dur="3.5s" repeatCount="indefinite"/>
-  </rect>
-
-  <!-- Corner accents -->
-  <path d="M45 42 L95 42 L115 22" stroke="#00F5FF" stroke-width="3" fill="none" filter="url(#glow)">
-    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.6s" repeatCount="indefinite"/>
-  </path>
-  <path d="M1155 42 L1105 42 L1085 22" stroke="#FF3CAC" stroke-width="3" fill="none" filter="url(#glow)">
-    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.6s" repeatCount="indefinite"/>
-  </path>
-  <path d="M45 178 L95 178 L115 198" stroke="#7B61FF" stroke-width="3" fill="none" filter="url(#glow)">
-    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite"/>
-  </path>
-  <path d="M1155 178 L1105 178 L1085 198" stroke="#FF7A18" stroke-width="3" fill="none" filter="url(#glow)">
-    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite"/>
-  </path>
-
-  <!-- Animated energy wave -->
-  <g opacity="0.95">
-    <path d="M0 170 Q30 150 60 170 T120 170 T180 170 T240 170 T300 170 T360 170 T420 170 T480 170 T540 170 T600 170 T660 170 T720 170 T780 170 T840 170 T900 170 T960 170 T1020 170 T1080 170 T1140 170 T1200 170"
-          stroke="url(#waveGrad)" stroke-width="4" fill="none" filter="url(#glow)">
-      <animateTransform attributeName="transform" type="translate" values="0 0;-60 0;0 0" dur="4.5s" repeatCount="indefinite"/>
-    </path>
+  <rect width="1200" height="240" rx="28" fill="url(#background)"/>
+  <rect width="1200" height="240" rx="28" fill="url(#grid)"/>
+  <g clip-path="url(#panelClip)">
+    <circle cx="100" cy="56" r="200" fill="url(#blueAura)">
+      <animate attributeName="cx" values="100;190;100" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1090" cy="202" r="220" fill="url(#purpleAura)">
+      <animate attributeName="cx" values="1090;1000;1090" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="-340" y="0" width="260" height="240" fill="url(#scan)" opacity="0.16" transform="skewX(-20)">
+      <animate attributeName="x" values="-340;1450" dur="6.5s" repeatCount="indefinite"/>
+    </rect>
   </g>
-
-  <!-- Top scan line -->
-  <line x1="90" y1="58" x2="1110" y2="58" stroke="#00F5FF" stroke-width="1.4" opacity="0.65" filter="url(#glow)">
-    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="3s" repeatCount="indefinite"/>
-  </line>
-
-  <!-- Flame accent left -->
-  <g transform="translate(92 88)" filter="url(#softGlow)">
-    <path d="M0 32 C-16 16 -14 -6 0 -28 C14 -6 16 16 0 32Z" fill="#FF7A18">
-      <animate attributeName="opacity" values="0.65;1;0.7;1;0.65" dur="2s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="scale" values="1 1;1.08 0.92;0.96 1.08;1 1" dur="2s" repeatCount="indefinite"/>
-    </path>
-    <path d="M0 18 C-8 8 -7 -3 0 -15 C7 -3 8 8 0 18Z" fill="#FFD166">
-      <animate attributeName="opacity" values="0.7;1;0.75;1;0.7" dur="1.8s" repeatCount="indefinite"/>
-    </path>
+  <rect x="30" y="22" width="1140" height="196" rx="24" fill="#0d1117" fill-opacity="0.3" stroke="url(#neon)" stroke-width="1.5"/>
+  <path d="M54 59V46H67 M1133 46H1146V59 M54 181V194H67 M1133 194H1146V181" fill="none" stroke="#4DEEEA" stroke-width="2" stroke-linecap="round" opacity="0.72">
+    <animate attributeName="opacity" values="0.45;0.92;0.45" dur="3.8s" repeatCount="indefinite"/>
+  </path>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <g transform="translate(76 55)">
+      <circle cx="5" cy="5" r="5" fill="#4DEEEA" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.45;1;0.45" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="23" y="10" fill="#8b949e" font-size="13" font-weight="700" letter-spacing="2.6">LIVE REPOSITORY TELEMETRY</text>
+    </g>
+    <text x="76" y="119" fill="#ffffff" font-size="43" font-weight="700" letter-spacing="1.2">GITHUB</text>
+    <text x="254" y="119" fill="url(#neon)" font-size="43" font-weight="700" letter-spacing="1.2" filter="url(#glow)">DASHBOARD</text>
+    <text x="78" y="151" fill="#b7c3d7" font-size="16" letter-spacing="0.9">Code patterns, contribution velocity, and the signals behind the work.</text>
   </g>
-
-  <!-- Flame accent right -->
-  <g transform="translate(1108 88)" filter="url(#softGlow)">
-    <path d="M0 32 C-16 16 -14 -6 0 -28 C14 -6 16 16 0 32Z" fill="#FF3CAC">
-      <animate attributeName="opacity" values="0.65;1;0.7;1;0.65" dur="2.2s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="scale" values="1 1;1.08 0.92;0.96 1.08;1 1" dur="2.2s" repeatCount="indefinite"/>
+  <g transform="translate(850 70)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 92H26L48 59L72 75L101 25L126 48L151 12L179 35L208 4" stroke="#263349" stroke-width="8" opacity="0.5"/>
+    <path d="M0 92H26L48 59L72 75L101 25L126 48L151 12L179 35L208 4" stroke="url(#neon)" stroke-width="2.5" filter="url(#glow)" stroke-dasharray="340" stroke-dashoffset="340">
+      <animate attributeName="stroke-dashoffset" values="340;0;0" keyTimes="0;0.72;1" dur="5s" repeatCount="indefinite"/>
     </path>
-    <path d="M0 18 C-8 8 -7 -3 0 -15 C7 -3 8 8 0 18Z" fill="#FFD166">
-      <animate attributeName="opacity" values="0.7;1;0.75;1;0.7" dur="1.9s" repeatCount="indefinite"/>
-    </path>
+    <g fill="#0d1117" stroke="#4DEEEA" stroke-width="2">
+      <circle cx="48" cy="59" r="5"/>
+      <circle cx="101" cy="25" r="5"/>
+      <circle cx="151" cy="12" r="5"/>
+      <circle cx="208" cy="4" r="5"/>
+    </g>
+    <circle cx="208" cy="4" r="11" fill="#4DEEEA" stroke="none" opacity="0.16" filter="url(#softGlow)">
+      <animate attributeName="r" values="8;16;8" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.34;0.1" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
   </g>
-
-  <!-- Small particles -->
-  <circle cx="250" cy="86" r="2.2" fill="#00F5FF" filter="url(#glow)">
-    <animate attributeName="cy" values="96;76;96" dur="3.2s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;1;0" dur="3.2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="950" cy="95" r="2" fill="#FF7A18" filter="url(#glow)">
-    <animate attributeName="cy" values="102;78;102" dur="2.8s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;1;0" dur="2.8s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="1000" cy="112" r="2.4" fill="#FF3CAC" filter="url(#glow)">
-    <animate attributeName="cy" values="118;88;118" dur="3.4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;1;0" dur="3.4s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Title -->
-  <text x="600" y="95" text-anchor="middle"
-        font-size="36" font-weight="700" fill="#F8F8FF" font-family="Segoe UI, Arial, sans-serif"
-        letter-spacing="3" filter="url(#textGlow)">
-    GITHUB STATS
-  </text>
-
-  <!-- Subtitle -->
-  <text x="600" y="128" text-anchor="middle"
-        font-size="18" fill="#B8C7FF" font-family="Segoe UI, Arial, sans-serif"
-        letter-spacing="1.2">
-    Neon Cyber Energy + Flame Accents
-  </text>
-
-  <!-- Bottom accent line -->
-  <line x1="350" y1="145" x2="850" y2="145" stroke="url(#strokeGrad)" stroke-width="2" filter="url(#glow)">
-    <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite"/>
-  </line>
+  <g transform="translate(78 183)">
+    <rect width="308" height="2" rx="1" fill="#202b3d"/>
+    <rect width="116" height="2" rx="1" fill="url(#neon)" filter="url(#glow)">
+      <animate attributeName="x" values="0;192;0" dur="5.4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g transform="translate(840 184)" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="1.8">
+    <text x="0" y="0" fill="#79c0ff">PROFILE</text>
+    <text x="90" y="0" fill="#d2a8ff">LANGUAGES</text>
+    <text x="210" y="0" fill="#7ee7e4">ACTIVITY</text>
+  </g>
 </svg>

@@ -1,34 +1,40 @@
-<svg viewBox="0 0 1200 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Neon divider">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="72" viewBox="0 0 1200 72" role="img" aria-labelledby="title desc">
+  <title id="title">Animated cyber signal divider</title>
+  <desc id="desc">A subtle blue, purple, and cyan animated divider.</desc>
   <defs>
-    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00F5FF"/>
-      <stop offset="50%" stop-color="#FF3CAC"/>
-      <stop offset="100%" stop-color="#FF7A18"/>
+    <linearGradient id="signal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2E9EF7" stop-opacity="0"/>
+      <stop offset="24%" stop-color="#2E9EF7"/>
+      <stop offset="50%" stop-color="#8E2DE2"/>
+      <stop offset="76%" stop-color="#4DEEEA"/>
+      <stop offset="100%" stop-color="#4DEEEA" stop-opacity="0"/>
     </linearGradient>
-
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
+    <filter id="glow" x="-60%" y="-200%" width="220%" height="500%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
   </defs>
-
-  <rect width="1200" height="90" fill="transparent"/>
-
-  <path d="M0 45 Q30 25 60 45 T120 45 T180 45 T240 45 T300 45 T360 45 T420 45 T480 45 T540 45 T600 45 T660 45 T720 45 T780 45 T840 45 T900 45 T960 45 T1020 45 T1080 45 T1140 45 T1200 45"
-        stroke="url(#lineGrad)" stroke-width="4" fill="none" filter="url(#glow)">
-    <animateTransform attributeName="transform" type="translate" values="0 0;-60 0;0 0" dur="4s" repeatCount="indefinite"/>
+  <path d="M52 36H456L474 24L492 48L510 36H690L708 24L726 48L744 36H1148" fill="none" stroke="#202b3d" stroke-width="2"/>
+  <path d="M52 36H456L474 24L492 48L510 36H690L708 24L726 48L744 36H1148" fill="none" stroke="url(#signal)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" stroke-dasharray="180 80">
+    <animate attributeName="stroke-dashoffset" values="260;0" dur="5.5s" repeatCount="indefinite"/>
   </path>
-
-  <circle cx="180" cy="45" r="3" fill="#00F5FF" filter="url(#glow)">
-    <animate attributeName="opacity" values="0;1;0" dur="2.8s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="600" cy="45" r="3" fill="#FF3CAC" filter="url(#glow)">
-    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="1020" cy="45" r="3" fill="#FF7A18" filter="url(#glow)">
-    <animate attributeName="opacity" values="0;1;0" dur="2.6s" repeatCount="indefinite"/>
-  </circle>
+  <g transform="translate(600 36)">
+    <path d="M0 -13L12 -6.5V6.5L0 13L-12 6.5V-6.5Z" fill="#0d1117" stroke="#8E2DE2" stroke-width="1.5" filter="url(#glow)">
+      <animate attributeName="stroke" values="#8E2DE2;#4DEEEA;#2E9EF7;#8E2DE2" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <circle r="3.5" fill="#4DEEEA" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.45;1;0.45" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g fill="#4DEEEA" filter="url(#glow)">
+    <circle cx="320" cy="36" r="2.5">
+      <animate attributeName="opacity" values="0.15;0.9;0.15" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="880" cy="36" r="2.5">
+      <animate attributeName="opacity" values="0.9;0.15;0.9" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
 </svg>

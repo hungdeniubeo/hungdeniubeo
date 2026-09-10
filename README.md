@@ -94,68 +94,48 @@ I work in **IT Support**, where I troubleshoot systems and solve real technical 
 ## 📊 GitHub Dashboard
 
 <p align="center">
-  <img width="100%" src="./assets/cyber-stats-header.svg" alt="Neon Cyber Dashboard Header" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/STATUS-Building%20Everyday-8A2BE2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/FOCUS-Software%20Development-FF2E88?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/INTEREST-AI%20%26%20Automation-00CFFF?style=for-the-badge" />
-</p>
-
-<p align="center">
-  <b>⚡ Personal activity dashboard — code, languages, productivity, and contribution flow.</b>
-</p>
-
-<table align="center">
-  <tr>
-    <td align="center">⚙️ <b>Systems</b><br/><sub>IT Support mindset</sub></td>
-    <td align="center">💻 <b>Code</b><br/><sub>React • TS • Java</sub></td>
-    <td align="center">🤖 <b>AI</b><br/><sub>Automation & tooling</sub></td>
-    <td align="center">📚 <b>Growth</b><br/><sub>Learning by building</sub></td>
-  </tr>
-</table>
-
-<table align="center">
-  <tr>
-    <td colspan="2" align="center">
-      <img width="98%" src="./profile-summary-card-output/radical/0-profile-details.svg" alt="GitHub profile details" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <sub><b>🧠 Language Distribution</b></sub><br/>
-      <img width="100%" src="./profile-summary-card-output/radical/1-repos-per-language.svg" alt="Repositories per language" />
-    </td>
-    <td align="center" width="50%">
-      <sub><b>🔥 Commit Language Focus</b></sub><br/>
-      <img width="100%" src="./profile-summary-card-output/radical/2-most-commit-language.svg" alt="Most commit language" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <sub><b>📈 GitHub Performance</b></sub><br/>
-      <img width="100%" src="./profile-summary-card-output/radical/3-stats.svg" alt="GitHub statistics" />
-    </td>
-    <td align="center" width="50%">
-      <sub><b>⏱️ Productive Time</b></sub><br/>
-      <img width="100%" src="./profile-summary-card-output/radical/4-productive-time.svg" alt="Productive time" />
-    </td>
-  </tr>
-</table>
-
-<p align="center">
-  <img width="100%" src="./assets/cyber-stats-divider.svg" alt="Animated divider" />
+  <img width="100%" src="./assets/cyber-stats-header.svg" alt="Animated GitHub telemetry dashboard header" />
 </p>
 
 <div align="center">
+  <sub><strong>01 / PROFILE SIGNAL</strong>&nbsp;&nbsp;·&nbsp;&nbsp;Contribution history and repository momentum</sub>
+</div>
 
-### 🏆 Achievement Signals
-🦈 **Pull Shark** &nbsp;&nbsp;•&nbsp;&nbsp; 🤝 **YOLO**
+<p align="center">
+  <img width="100%" src="./profile-summary-card-output/radical/0-profile-details.svg" alt="GitHub profile details and contribution history" />
+</p>
 
-</div> 
+<div align="center">
+  <sub><strong>02 / LANGUAGE INTELLIGENCE</strong>&nbsp;&nbsp;·&nbsp;&nbsp;Repository mix and commit focus</sub>
+</div>
 
----
+<p align="center">
+  <img width="48%" src="./profile-summary-card-output/radical/1-repos-per-language.svg" alt="Top languages by repository" />
+  &nbsp;
+  <img width="48%" src="./profile-summary-card-output/radical/2-most-commit-language.svg" alt="Top languages by commit" />
+</p>
+
+<div align="center">
+  <sub><strong>03 / ACTIVITY PATTERNS</strong>&nbsp;&nbsp;·&nbsp;&nbsp;Core metrics and productive hours</sub>
+</div>
+
+<p align="center">
+  <img width="48%" src="./profile-summary-card-output/radical/3-stats.svg" alt="GitHub activity statistics" />
+  &nbsp;
+  <img width="48%" src="./profile-summary-card-output/radical/4-productive-time.svg" alt="GitHub commits by hour" />
+</p>
+
+<div align="center">
+  <sub><strong>ACHIEVEMENT VAULT</strong>&nbsp;&nbsp;·&nbsp;&nbsp;Milestones unlocked</sub>
+  <br /><br />
+  <a href="https://github.com/hungdeniubeo?tab=achievements"><img src="https://img.shields.io/badge/PULL%20SHARK-UNLOCKED-8E2DE2?style=for-the-badge&amp;labelColor=0D1117&amp;logo=github&amp;logoColor=white" alt="Pull Shark achievement unlocked" /></a>
+  &nbsp;
+  <a href="https://github.com/hungdeniubeo?tab=achievements"><img src="https://img.shields.io/badge/YOLO-UNLOCKED-2E9EF7?style=for-the-badge&amp;labelColor=0D1117&amp;logo=github&amp;logoColor=white" alt="YOLO achievement unlocked" /></a>
+</div>
+
+<p align="center">
+  <img width="100%" src="./assets/cyber-stats-divider.svg" alt="Animated blue and purple signal divider" />
+</p>
 
 ### 🧩 Contributions
 
