@@ -1,101 +1,91 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-labelledby="title desc">
-  <title id="title">GitHub telemetry dashboard</title>
-  <desc id="desc">Animated cyber dashboard header with blue, purple, and cyan signal graphics.</desc>
+  <title id="title">AI and developer analytics</title>
+  <desc id="desc">A dark intelligent analytics header with connected repository data signals.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="52%" stop-color="#111827"/>
+      <stop offset="0%" stop-color="#0b1018"/>
+      <stop offset="52%" stop-color="#101725"/>
       <stop offset="100%" stop-color="#090d14"/>
     </linearGradient>
-    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="signal" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#2E9EF7"/>
-      <stop offset="50%" stop-color="#8E2DE2"/>
+      <stop offset="52%" stop-color="#8E2DE2"/>
       <stop offset="100%" stop-color="#4DEEEA"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="-0.25 0;0.25 0;-0.25 0" dur="7s" repeatCount="indefinite"/>
-    </linearGradient>
-    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#2E9EF7" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#4DEEEA" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="#8E2DE2" stop-opacity="0"/>
     </linearGradient>
     <radialGradient id="blueAura">
-      <stop offset="0%" stop-color="#2E9EF7" stop-opacity="0.34"/>
+      <stop offset="0%" stop-color="#2E9EF7" stop-opacity=".22"/>
       <stop offset="100%" stop-color="#2E9EF7" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="purpleAura">
-      <stop offset="0%" stop-color="#8E2DE2" stop-opacity="0.3"/>
+    <radialGradient id="violetAura">
+      <stop offset="0%" stop-color="#8E2DE2" stop-opacity=".2"/>
       <stop offset="100%" stop-color="#8E2DE2" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#c9d1d9" stroke-opacity="0.045" stroke-width="1"/>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#c9d1d9" stroke-opacity=".04" stroke-width="1"/>
     </pattern>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="12"/>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <clipPath id="panelClip">
-      <rect x="30" y="22" width="1140" height="196" rx="24"/>
+      <rect x="28" y="20" width="1144" height="200" rx="24"/>
     </clipPath>
   </defs>
+
   <rect width="1200" height="240" rx="28" fill="url(#background)"/>
   <rect width="1200" height="240" rx="28" fill="url(#grid)"/>
   <g clip-path="url(#panelClip)">
-    <circle cx="100" cy="56" r="200" fill="url(#blueAura)">
-      <animate attributeName="cx" values="100;190;100" dur="9s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1090" cy="202" r="220" fill="url(#purpleAura)">
-      <animate attributeName="cx" values="1090;1000;1090" dur="10s" repeatCount="indefinite"/>
-    </circle>
-    <rect x="-340" y="0" width="260" height="240" fill="url(#scan)" opacity="0.16" transform="skewX(-20)">
-      <animate attributeName="x" values="-340;1450" dur="6.5s" repeatCount="indefinite"/>
-    </rect>
+    <circle cx="90" cy="40" r="190" fill="url(#blueAura)"/>
+    <circle cx="1080" cy="210" r="220" fill="url(#violetAura)"/>
   </g>
-  <rect x="30" y="22" width="1140" height="196" rx="24" fill="#0d1117" fill-opacity="0.3" stroke="url(#neon)" stroke-width="1.5"/>
-  <path d="M54 59V46H67 M1133 46H1146V59 M54 181V194H67 M1133 194H1146V181" fill="none" stroke="#4DEEEA" stroke-width="2" stroke-linecap="round" opacity="0.72">
-    <animate attributeName="opacity" values="0.45;0.92;0.45" dur="3.8s" repeatCount="indefinite"/>
-  </path>
+  <rect x="28" y="20" width="1144" height="200" rx="24" fill="#0d1117" fill-opacity=".25" stroke="url(#signal)" stroke-width="1.4"/>
+
   <g font-family="Arial, Helvetica, sans-serif">
-    <g transform="translate(76 55)">
+    <g transform="translate(70 51)">
       <circle cx="5" cy="5" r="5" fill="#4DEEEA" filter="url(#glow)">
-        <animate attributeName="opacity" values="0.45;1;0.45" dur="2.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".4;1;.4" dur="3.2s" repeatCount="indefinite"/>
       </circle>
-      <text x="23" y="10" fill="#8b949e" font-size="13" font-weight="700" letter-spacing="2.6">LIVE REPOSITORY TELEMETRY</text>
+      <text x="23" y="10" fill="#8b949e" font-size="11" font-weight="700" letter-spacing="2.2">LIVE DEVELOPMENT SIGNAL</text>
     </g>
-    <text x="76" y="119" fill="#ffffff" font-size="43" font-weight="700" letter-spacing="1.2">GITHUB</text>
-    <text x="254" y="119" fill="url(#neon)" font-size="43" font-weight="700" letter-spacing="1.2" filter="url(#glow)">DASHBOARD</text>
-    <text x="78" y="151" fill="#b7c3d7" font-size="16" letter-spacing="0.9">Code patterns, contribution velocity, and the signals behind the work.</text>
-  </g>
-  <g transform="translate(850 70)" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M0 92H26L48 59L72 75L101 25L126 48L151 12L179 35L208 4" stroke="#263349" stroke-width="8" opacity="0.5"/>
-    <path d="M0 92H26L48 59L72 75L101 25L126 48L151 12L179 35L208 4" stroke="url(#neon)" stroke-width="2.5" filter="url(#glow)" stroke-dasharray="340" stroke-dashoffset="340">
-      <animate attributeName="stroke-dashoffset" values="340;0;0" keyTimes="0;0.72;1" dur="5s" repeatCount="indefinite"/>
-    </path>
-    <g fill="#0d1117" stroke="#4DEEEA" stroke-width="2">
-      <circle cx="48" cy="59" r="5"/>
-      <circle cx="101" cy="25" r="5"/>
-      <circle cx="151" cy="12" r="5"/>
-      <circle cx="208" cy="4" r="5"/>
+    <text x="70" y="111" fill="#ffffff" font-size="38" font-weight="700" letter-spacing="1.1">AI / DEVELOPER</text>
+    <text x="70" y="151" fill="#7ee7e4" font-size="30" font-weight="700" letter-spacing="1.8">ANALYTICS</text>
+    <text x="72" y="181" fill="#b7c3d7" font-size="14">Real repository data · language patterns · activity</text>
+
+    <g transform="translate(982 120)">
+      <g fill="none" stroke="#33435e" stroke-width="1.6" stroke-dasharray="4 10" stroke-linecap="round">
+        <path d="M0 0L-122 -54M0 0L-135 51M0 0L108 -54M0 0L126 44"/>
+        <animate attributeName="stroke-dashoffset" values="28;0" dur="6.4s" repeatCount="indefinite"/>
+      </g>
+      <circle r="31" fill="#101725" stroke="url(#signal)" stroke-width="2" filter="url(#glow)"/>
+      <circle r="20" fill="#8E2DE2" fill-opacity=".12" stroke="#4DEEEA" stroke-opacity=".45"/>
+      <text x="0" y="5" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="700" letter-spacing="1.3">DATA</text>
     </g>
-    <circle cx="208" cy="4" r="11" fill="#4DEEEA" stroke="none" opacity="0.16" filter="url(#softGlow)">
-      <animate attributeName="r" values="8;16;8" dur="2.6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.1;0.34;0.1" dur="2.6s" repeatCount="indefinite"/>
-    </circle>
+
+    <g font-size="9" font-weight="700" letter-spacing="1.2" text-anchor="middle">
+      <g transform="translate(860 66)">
+        <circle r="6" fill="#2E9EF7" filter="url(#glow)"/>
+        <text y="-13" fill="#79c0ff">PROFILE</text>
+      </g>
+      <g transform="translate(847 171)">
+        <circle r="6" fill="#4DEEEA" filter="url(#glow)"/>
+        <text y="22" fill="#7ee7e4">LANGUAGES</text>
+      </g>
+      <g transform="translate(1090 66)">
+        <circle r="6" fill="#8E2DE2" filter="url(#glow)"/>
+        <text y="-13" fill="#d2a8ff">CODE</text>
+      </g>
+      <g transform="translate(1108 164)">
+        <circle r="6" fill="#4DEEEA" filter="url(#glow)"/>
+        <text y="22" fill="#7ee7e4">ACTIVITY</text>
+      </g>
+    </g>
   </g>
-  <g transform="translate(78 183)">
-    <rect width="308" height="2" rx="1" fill="#202b3d"/>
-    <rect width="116" height="2" rx="1" fill="url(#neon)" filter="url(#glow)">
-      <animate attributeName="x" values="0;192;0" dur="5.4s" repeatCount="indefinite"/>
+
+  <g transform="translate(72 199)">
+    <rect width="440" height="2" rx="1" fill="#263349"/>
+    <rect width="125" height="2" rx="1" fill="url(#signal)" filter="url(#glow)">
+      <animate attributeName="x" values="0;315;315" keyTimes="0;.25;1" dur="6.4s" repeatCount="indefinite"/>
     </rect>
   </g>
-  <g transform="translate(840 184)" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="1.8">
-    <text x="0" y="0" fill="#79c0ff">PROFILE</text>
-    <text x="90" y="0" fill="#d2a8ff">LANGUAGES</text>
-    <text x="210" y="0" fill="#7ee7e4">ACTIVITY</text>
-  </g>
+  <path d="M52 67V44H75 M1125 44H1148V67 M52 173V196H75 M1125 196H1148V173" fill="none" stroke="#4DEEEA" stroke-width="2" stroke-linecap="round" opacity=".5"/>
 </svg>

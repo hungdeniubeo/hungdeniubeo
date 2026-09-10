@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Hung Nguyen — IT Support, Software Development, and AI" />
+<img src="./assets/hero.svg" width="100%" alt="Hung Nguyen — IT Support, Software Development, AI, and Automation" />
 
 <br />
 
@@ -16,54 +16,51 @@
 
 </div>
 
-## 🚀 About Me
+## 🧠 AI, Automation & Systems
 
-> **IT Support today. Building toward Software Development and AI.**
+> **Solving systems. Automating workflows. Building toward intelligent software.**
 
-I work in **IT Support**, where I troubleshoot systems and solve real technical problems. Outside of work, I enjoy turning repetitive tasks and ideas into **code, automation, backend services, and practical AI-powered tools**.
+I work in **IT Support**, solving real technical problems across IT systems. I’m building from that foundation into **software development, backend services, APIs, automation, and practical AI-powered tools**.
 
-- 🛠️ Working with **IT systems, troubleshooting, and technical support**
-- 💻 Building personal projects to improve my **software development skills**
-- ⚙️ Exploring **automation, backend development, and REST APIs**
-- 🤖 Experimenting with practical **AI applications**
-- 🎯 Goal: combine real-world IT experience with **Software Development + AI**
+- **Systems** — IT support, troubleshooting, and practical problem-solving
+- **Automation** — simplifying repetitive work and improving workflows
+- **Software** — personal projects, backend development, and REST APIs
+- **AI** — exploring LLMs, AI-assisted development, and useful AI applications
 
 <p align="center">
-  <img src="https://img.shields.io/badge/NOW-IT%20Support-2E9EF7?style=for-the-badge&amp;labelColor=0D1117" alt="Now: IT Support" />
-  <img src="https://img.shields.io/badge/BUILDING-Coding%20Projects-8E2DE2?style=for-the-badge&amp;labelColor=0D1117" alt="Building coding projects" />
-  <img src="https://img.shields.io/badge/LEARNING-Backend%20%2B%20AI-FF2E88?style=for-the-badge&amp;labelColor=0D1117" alt="Learning backend and AI" />
+  <code>SYSTEMS</code>&nbsp; → &nbsp;<code>AUTOMATION</code>&nbsp; → &nbsp;<code>SOFTWARE</code>&nbsp; → &nbsp;<code>AI</code>
 </p>
 
-## 🛠️ Tech Stack
+## ⚙️ Intelligent Toolchain
 
 <p align="center">
+  <img src="https://img.shields.io/badge/AI%20%2B%20AUTOMATION-Exploring%20LLMs%20%C2%B7%20APIs%20%C2%B7%20Workflows-8E2DE2?style=for-the-badge&amp;labelColor=0D1117" alt="AI and automation — exploring LLMs, APIs, and workflows" />
+  <br /><br />
   <img src="https://skillicons.dev/icons?i=py,java,js,ts,react,nodejs,tauri,html,css,git,github,vscode&amp;theme=dark" alt="Python, Java, JavaScript, TypeScript, React, Node.js, Tauri, HTML, CSS, Git, GitHub, and VS Code" />
 </p>
 
 <div align="center">
-  <sub><strong>LANGUAGES</strong>&nbsp;&nbsp; Python · Java · JavaScript · TypeScript</sub>
+  <sub><strong>CORE</strong>&nbsp;&nbsp; Python · Java · JavaScript · TypeScript</sub>
   <br />
-  <sub><strong>BUILD</strong>&nbsp;&nbsp; React · Node.js · Tauri · HTML · CSS</sub>
+  <sub><strong>WEB &amp; APPS</strong>&nbsp;&nbsp; React · Node.js · Tauri · HTML · CSS</sub>
   <br />
-  <sub><strong>TOOLS</strong>&nbsp;&nbsp; Git · GitHub · VS Code</sub>
-  <br />
-  <sub><strong>FOCUS</strong>&nbsp;&nbsp; REST APIs · Automation · AI</sub>
+  <sub><strong>SYSTEMS</strong>&nbsp;&nbsp; Git · GitHub · VS Code</sub>
 </div>
 
 ## 📌 Featured Projects
 
 <div align="center">
-  <sub><strong>SELECTED BUILDS</strong>&nbsp;&nbsp;//&nbsp;&nbsp;WEB · DESKTOP · PERSONAL</sub>
+  <sub><strong>SELECTED BUILDS</strong>&nbsp;&nbsp;//&nbsp;&nbsp;PRACTICAL SOFTWARE</sub>
   <br /><br />
   <a href="https://github.com/hungdeniubeo/Busbooking"><img width="32%" src="./assets/project-busbooking.svg" alt="Busbooking — online bus ticket booking with React and a REST API" /></a>
   <a href="https://github.com/hungdeniubeo/Schedulework"><img width="32%" src="./assets/project-schedulework.svg" alt="Schedulework — offline shift scheduling with Tauri, React, and TypeScript" /></a>
   <a href="https://github.com/hungdeniubeo/hungdeniubeo.github.io"><img width="32%" src="./assets/project-portfolio.svg" alt="Portfolio — personal website built and hosted on GitHub Pages" /></a>
 </div>
 
-## 📊 GitHub Dashboard
+## 📡 AI / Developer Analytics
 
 <p align="center">
-  <img width="100%" src="./assets/cyber-stats-header.svg" alt="Animated GitHub telemetry dashboard header" />
+  <img width="100%" src="./assets/cyber-stats-header.svg" alt="Animated AI and developer analytics header" />
 </p>
 
 <p align="center">
@@ -81,17 +78,17 @@ I work in **IT Support**, where I troubleshoot systems and solve real technical 
 </p>
 
 <div align="center">
-  <sub><strong>ACHIEVEMENTS</strong>&nbsp;&nbsp;·&nbsp;&nbsp;Milestones unlocked</sub>
+  <sub><strong>VERIFIED ACHIEVEMENTS</strong>&nbsp;&nbsp;·&nbsp;&nbsp;Milestones unlocked</sub>
   <br /><br />
   <a href="https://github.com/hungdeniubeo?tab=achievements"><img src="https://img.shields.io/badge/PULL%20SHARK-UNLOCKED-8E2DE2?style=for-the-badge&amp;labelColor=0D1117&amp;logo=github&amp;logoColor=white" alt="Pull Shark achievement unlocked" /></a>
   <a href="https://github.com/hungdeniubeo?tab=achievements"><img src="https://img.shields.io/badge/YOLO-UNLOCKED-2E9EF7?style=for-the-badge&amp;labelColor=0D1117&amp;logo=github&amp;logoColor=white" alt="YOLO achievement unlocked" /></a>
 </div>
 
 <p align="center">
-  <img width="100%" src="./assets/cyber-stats-divider.svg" alt="Animated blue and purple signal divider" />
+  <img width="100%" src="./assets/cyber-stats-divider.svg" alt="Animated intelligent signal divider" />
 </p>
 
-## 🧩 Contributions
+## 🧬 Contribution Signal
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/hungdeniubeo/hungdeniubeo/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake" />

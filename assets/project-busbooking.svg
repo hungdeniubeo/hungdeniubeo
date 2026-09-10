@@ -15,11 +15,11 @@
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-  <rect width="320" height="190" rx="18" fill="#0d1117"/>
+  <rect width="320" height="190" rx="18" fill="#0b1018"/>
   <circle cx="286" cy="24" r="92" fill="url(#aura)"/>
   <rect x=".75" y=".75" width="318.5" height="188.5" rx="17.25" fill="none" stroke="url(#edge)" stroke-width="1.5" stroke-opacity=".72"/>
   <path d="M18 12H302" stroke="url(#edge)" stroke-width="2" stroke-dasharray="90 32">
-    <animate attributeName="stroke-dashoffset" values="0;-122" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" values="0;-122" dur="6.4s" repeatCount="indefinite"/>
   </path>
   <g font-family="Arial, Helvetica, sans-serif">
     <text x="20" y="31" fill="#79c0ff" font-size="10" font-weight="700" letter-spacing="1.8">01 / WEB APPLICATION</text>
