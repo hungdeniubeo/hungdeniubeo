@@ -31,6 +31,6 @@ jobs:
         with:
           USERNAME: ${{ github.repository_owner }}
           THEME: radical
-          ANIMATION: rgb-soft
-          DURATION: 8
+          ANIMATION: draw
+          DURATION: 3.8
           UTC_OFFSET: 7
