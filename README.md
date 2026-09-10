@@ -52,23 +52,54 @@ I work in **IT Support**, where I troubleshoot systems and solve real technical 
 
 ## 📌 Featured Projects
 
-### 01 · 🚌 [Busbooking](https://github.com/hungdeniubeo/Busbooking)
+<p align="center">
+  <sub><strong>SELECTED WORK</strong>&nbsp;&nbsp;·&nbsp;&nbsp;Web, desktop, and GitHub Pages</sub>
+</p>
 
-Online bus ticket booking web app with a React frontend and REST API backend.
+<table width="100%">
+  <tr>
+    <td width="72" align="center" valign="middle">
+      <h2>01</h2>
+      <sub><strong>BOOK</strong></sub>
+    </td>
+    <td valign="top">
+      <h3>🚌 <a href="https://github.com/hungdeniubeo/Busbooking">Busbooking</a></h3>
+      <img src="https://img.shields.io/badge/TYPE-WEB%20APPLICATION-2E9EF7?style=flat-square&amp;labelColor=0D1117" alt="Web application" />
+      <p>Book bus tickets online through a React interface backed by a REST API.</p>
+      <p><sub><strong>STACK</strong></sub>&nbsp;&nbsp;<code>JavaScript</code>&nbsp;<code>React</code></p>
+    </td>
+  </tr>
+</table>
 
-`JavaScript` `React`
+<table width="100%">
+  <tr>
+    <td width="72" align="center" valign="middle">
+      <h2>02</h2>
+      <sub><strong>PLAN</strong></sub>
+    </td>
+    <td valign="top">
+      <h3>🗓️ <a href="https://github.com/hungdeniubeo/Schedulework">Schedulework</a></h3>
+      <img src="https://img.shields.io/badge/TYPE-DESKTOP%20APPLICATION-8E2DE2?style=flat-square&amp;labelColor=0D1117" alt="Desktop application" />
+      <p>Plan shifts offline with drag-and-drop, conflict detection, and export.</p>
+      <p><sub><strong>STACK</strong></sub>&nbsp;&nbsp;<code>Tauri</code>&nbsp;<code>React</code>&nbsp;<code>TypeScript</code></p>
+    </td>
+  </tr>
+</table>
 
-### 02 · 🗓️ [Schedulework](https://github.com/hungdeniubeo/Schedulework)
-
-Offline desktop shift-scheduling app with drag-and-drop, conflict detection, and export.
-
-`Tauri` `React` `TypeScript`
-
-### 03 · 🌐 [Portfolio](https://github.com/hungdeniubeo/hungdeniubeo.github.io)
-
-Personal portfolio website built and hosted on GitHub Pages.
-
-`HTML` `CSS` `JavaScript`
+<table width="100%">
+  <tr>
+    <td width="72" align="center" valign="middle">
+      <h2>03</h2>
+      <sub><strong>PRESENT</strong></sub>
+    </td>
+    <td valign="top">
+      <h3>🌐 <a href="https://github.com/hungdeniubeo/hungdeniubeo.github.io">Portfolio</a></h3>
+      <img src="https://img.shields.io/badge/TYPE-PERSONAL%20SITE-00B8D4?style=flat-square&amp;labelColor=0D1117" alt="Personal website" />
+      <p>A personal portfolio website built and hosted on GitHub Pages.</p>
+      <p><sub><strong>STACK</strong></sub>&nbsp;&nbsp;<code>HTML</code>&nbsp;<code>CSS</code>&nbsp;<code>JavaScript</code></p>
+    </td>
+  </tr>
+</table>
 
 ## 📊 GitHub Dashboard
 
