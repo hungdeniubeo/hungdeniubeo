@@ -28,6 +28,13 @@ The primary artifact is `README.md`.
 - Preserve existing working links, actions, and assets unless they are being replaced intentionally.
 - When modifying GitHub Actions, inspect the related workflow file before changing references.
 
+## Delivery
+
+- After completing and validating a requested change, automatically commit the task-scoped changes and push the current branch to `origin` without asking again.
+- Do not include unrelated worktree changes in the commit.
+- Skip automatic commit or push when the user explicitly asks not to do it.
+- Never force-push. If the remote has diverged, fetch and rebase safely; stop and report any conflict instead of overwriting remote work.
+
 ## Validation
 
 - Check Markdown/HTML structure after edits.
