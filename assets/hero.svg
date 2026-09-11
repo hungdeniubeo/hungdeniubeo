@@ -1,20 +1,104 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
-<title id="title">Hung Nguyen</title>
-<desc id="desc">Practical problems. Personal projects. A blue and violet folded-ribbon developer portfolio banner.</desc>
-<defs>
- <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101c31"/><stop offset="1" stop-color="#191529"/></linearGradient>
- <linearGradient id="ribbon" x2="1" y2="1"><stop stop-color="#73d8ef"/><stop offset=".5" stop-color="#5486ee"/><stop offset="1" stop-color="#ad92e4"/></linearGradient>
- <clipPath id="clip"><rect width="1200" height="260" rx="22"/></clipPath>
-</defs>
-<g clip-path="url(#clip)">
- <rect width="1200" height="260" fill="url(#bg)"/>
- <path d="M-55 -30L177 66L73 181L205 292L120 319L-34 176L74 74L-73 20" fill="url(#ribbon)" opacity=".75"/>
- <path d="M1249 -46L1044 75L1145 178L1011 282L1100 315L1251 180L1151 81L1280 4" fill="url(#ribbon)" opacity=".85"/>
- <path d="M1044 75L1145 178L1011 282" fill="none" stroke="#d4c4f6" stroke-opacity=".5" stroke-width="2"/>
- <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
-  <text x="600" y="61" font-size="16" letter-spacing="4" fill="#8ad4e9">SYSTEMS / SOFTWARE / CURIOSITY</text>
-  <text x="600" y="149" font-size="78" font-weight="700" letter-spacing="-2" fill="#f4f6fc">Hung Nguyen.</text>
-  <text x="600" y="201" font-size="24" fill="#c7d2e8">Practical problems. Personal projects.</text>
- </g>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="hero-title hero-desc">
+  <title id="hero-title">Hung Nguyen — practical software for everyday problems</title>
+  <desc id="hero-desc">A midnight-blue personal system dashboard. It shows an editorial headline, a small current-focus terminal, a subtle grid, an animated signal path, a pulsing status dot, and a blinking cursor.</desc>
+  <defs>
+    <linearGradient id="hero-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#07111f"/>
+      <stop offset=".62" stop-color="#0a1526"/>
+      <stop offset="1" stop-color="#101329"/>
+    </linearGradient>
+    <radialGradient id="hero-glow" cx=".18" cy=".08" r=".78">
+      <stop stop-color="#67e8f9" stop-opacity=".14"/>
+      <stop offset=".48" stop-color="#8da2fb" stop-opacity=".045"/>
+      <stop offset="1" stop-color="#07111f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="signal-stroke" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#67e8f9"/>
+      <stop offset=".5" stop-color="#8da2fb"/>
+      <stop offset="1" stop-color="#b7a6e8"/>
+    </linearGradient>
+    <pattern id="hero-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#8da2fb" stroke-opacity=".075"/>
+    </pattern>
+    <filter id="soft-glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="hero-clip"><rect width="1200" height="420" rx="24"/></clipPath>
+    <style>
+      .signal { animation: signal-flow 14s linear infinite; }
+      .pulse { transform-box: fill-box; transform-origin: center; animation: status-pulse 3.4s ease-in-out infinite; }
+      .cursor { animation: cursor-blink 1.35s steps(2, start) infinite; }
+      .packet { animation: packet-travel 10s ease-in-out infinite; }
+      @keyframes signal-flow { to { stroke-dashoffset: -180; } }
+      @keyframes status-pulse { 0%, 100% { opacity: .55; transform: scale(.78); } 50% { opacity: .08; transform: scale(1.8); } }
+      @keyframes cursor-blink { 0%, 46% { opacity: 1; } 47%, 100% { opacity: 0; } }
+      @keyframes packet-travel { 0%, 12% { transform: translateX(0); opacity: 0; } 20% { opacity: 1; } 80% { opacity: 1; } 88%, 100% { transform: translateX(840px); opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) {
+        .signal, .pulse, .cursor, .packet { animation: none !important; }
+      }
+    </style>
+  </defs>
+  <g clip-path="url(#hero-clip)">
+    <rect width="1200" height="420" fill="url(#hero-bg)"/>
+    <rect width="1200" height="420" fill="url(#hero-glow)"/>
+    <rect width="1200" height="420" fill="url(#hero-grid)"/>
+    <path d="M0 1H1200M0 419H1200" stroke="#8da2fb" stroke-opacity=".22"/>
+
+    <g font-family="Arial, Helvetica, sans-serif">
+      <circle cx="73" cy="56" r="12" fill="#67e8f9" opacity=".15" class="pulse"/>
+      <circle cx="73" cy="56" r="4" fill="#67e8f9"/>
+      <text x="91" y="61" fill="#aebbd2" font-size="13" font-weight="700" letter-spacing="2.8">HUNG NGUYEN / PERSONAL SYSTEM</text>
+      <text x="72" y="140" fill="#f3f6fb" font-size="55" font-weight="700" letter-spacing="-1.8">I build useful things</text>
+      <text x="72" y="201" fill="#f3f6fb" font-size="55" font-weight="700" letter-spacing="-1.8">for everyday problems.</text>
+      <text x="74" y="249" fill="#9fadca" font-size="20" letter-spacing=".2">Support mindset. Software tools. Quiet automation.</text>
+      <g transform="translate(72 287)">
+        <rect width="166" height="34" rx="17" fill="#67e8f9" fill-opacity=".08" stroke="#67e8f9" stroke-opacity=".28"/>
+        <text x="18" y="22" fill="#9ceef7" font-size="12" font-weight="700" letter-spacing="1.4">IT SUPPORT</text>
+        <path d="M182 17H214" stroke="#506b91" stroke-width="1.5"/>
+        <path d="m209 12 6 5-6 5" fill="none" stroke="#8da2fb" stroke-width="1.5"/>
+        <rect x="230" width="236" height="34" rx="17" fill="#8da2fb" fill-opacity=".1" stroke="#8da2fb" stroke-opacity=".3"/>
+        <text x="248" y="22" fill="#bdc8ff" font-size="12" font-weight="700" letter-spacing="1.25">SOFTWARE DEVELOPMENT</text>
+      </g>
+    </g>
+
+    <g transform="translate(738 58)">
+      <rect width="402" height="282" rx="17" fill="#060d18" fill-opacity=".9" stroke="#506b91" stroke-opacity=".55"/>
+      <path d="M0 44H402" stroke="#334760" stroke-opacity=".72"/>
+      <circle cx="24" cy="22" r="4" fill="#d6a0bd"/>
+      <circle cx="40" cy="22" r="4" fill="#b7a6e8"/>
+      <circle cx="56" cy="22" r="4" fill="#67e8f9"/>
+      <text x="201" y="27" text-anchor="middle" fill="#70839f" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.3">FOCUS.SESSION</text>
+      <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">
+        <text x="24" y="78" fill="#67e8f9">$</text>
+        <text x="43" y="78" fill="#aebbd2">whoami</text>
+        <text x="24" y="105" fill="#e2e8f3">IT Support → Software Development</text>
+        <text x="24" y="145" fill="#67e8f9">$</text>
+        <text x="43" y="145" fill="#aebbd2">focus --now</text>
+        <text x="24" y="172" fill="#bdc8ff">web apps · desktop tools</text>
+        <text x="24" y="198" fill="#bdc8ff">REST APIs · automation · AI</text>
+        <text x="24" y="239" fill="#67e8f9">$</text>
+        <text x="43" y="239" fill="#aebbd2">build --useful --small</text>
+        <rect x="237" y="226" width="8" height="17" rx="1" fill="#d6a0bd" class="cursor"/>
+      </g>
+      <g transform="translate(278 252)" font-family="Arial, Helvetica, sans-serif">
+        <circle cx="0" cy="0" r="11" fill="#67e8f9" opacity=".13" class="pulse"/>
+        <circle cx="0" cy="0" r="3.5" fill="#67e8f9"/>
+        <text x="13" y="4" fill="#8fa2bd" font-size="10" font-weight="700" letter-spacing="1.2">BUILDING / LEARNING</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M72 369H198L226 349H351L379 369H566L594 356H730L758 369H918L946 348H1128" fill="none" stroke="#29405c" stroke-width="2"/>
+      <path d="M72 369H198L226 349H351L379 369H566L594 356H730L758 369H918L946 348H1128" fill="none" stroke="url(#signal-stroke)" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 14" class="signal"/>
+      <circle cx="226" cy="349" r="4" fill="#67e8f9"/>
+      <circle cx="594" cy="356" r="4" fill="#8da2fb"/>
+      <circle cx="946" cy="348" r="4" fill="#b7a6e8"/>
+      <g class="packet" filter="url(#soft-glow)">
+        <circle cx="111" cy="369" r="3" fill="#67e8f9"/>
+      </g>
+      <text x="72" y="398" fill="#5e718c" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.7">NOTICE / BUILD / TEST / SIMPLIFY</text>
+      <text x="1128" y="398" text-anchor="end" fill="#5e718c" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.7">SYS.OK</text>
+    </g>
+  </g>
 </svg>

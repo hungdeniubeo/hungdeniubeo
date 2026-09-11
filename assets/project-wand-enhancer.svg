@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="250" viewBox="0 0 580 250" role="img" aria-labelledby="wand-title wand-desc">
+  <title id="wand-title">Wand Enhancer module artwork</title>
+  <desc id="wand-desc">A dark project card with a central desktop core connected to configuration, patch, script, and remote panel modules.</desc>
+  <defs>
+    <linearGradient id="wand-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0c1628"/><stop offset="1" stop-color="#171328"/></linearGradient>
+    <filter id="wand-glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="6"/></filter>
+    <style>
+      .wand-ring { transform-box: fill-box; transform-origin: center; animation: wand-ring 4.8s ease-in-out infinite; }
+      .wand-link { animation: wand-link 10s linear infinite; }
+      @keyframes wand-ring { 0%, 100% { opacity: .24; transform: scale(.88); } 50% { opacity: .05; transform: scale(1.25); } }
+      @keyframes wand-link { to { stroke-dashoffset: -90; } }
+      @media (prefers-reduced-motion: reduce) { .wand-ring, .wand-link { animation: none !important; } }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="578" height="248" rx="18" fill="url(#wand-bg)" stroke="#3e4565"/>
+  <path d="M28 48H552" stroke="#2d3850"/>
+  <circle cx="29" cy="25" r="3.5" fill="#b7a6e8"/>
+  <text x="42" y="29" fill="#98a4be" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="700" letter-spacing="1.6">PROJECT / 02</text>
+  <text x="551" y="29" text-anchor="end" fill="#756c91" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.3">EXTENSION MAP</text>
+
+  <g transform="translate(33 66)">
+    <g fill="none" stroke="#4b5477" stroke-width="1.5">
+      <path d="M113 38L232 78L113 120M281 78L403 38M281 78L403 120"/>
+    </g>
+    <g fill="none" stroke="#b7a6e8" stroke-opacity=".72" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4 10" class="wand-link">
+      <path d="M113 38L232 78L113 120M281 78L403 38M281 78L403 120"/>
+    </g>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+      <g transform="translate(0 13)">
+        <rect width="113" height="49" rx="9" fill="#0a1220" stroke="#617196"/>
+        <circle cx="17" cy="17" r="4" fill="#67e8f9"/><text x="30" y="21" fill="#d7deeb" font-size="10">CONFIG</text>
+        <text x="17" y="37" fill="#657995" font-size="8">LOCAL / JSON</text>
+      </g>
+      <g transform="translate(0 95)">
+        <rect width="113" height="49" rx="9" fill="#0a1220" stroke="#617196"/>
+        <circle cx="17" cy="17" r="4" fill="#8da2fb"/><text x="30" y="21" fill="#d7deeb" font-size="10">PATCH</text>
+        <text x="17" y="37" fill="#657995" font-size="8">CLIENT / JS</text>
+      </g>
+      <g transform="translate(403 13)">
+        <rect width="111" height="49" rx="9" fill="#0a1220" stroke="#756b93"/>
+        <circle cx="17" cy="17" r="4" fill="#d6a0bd"/><text x="30" y="21" fill="#d7deeb" font-size="10">SCRIPTS</text>
+        <text x="17" y="37" fill="#756c91" font-size="8">RENDERER</text>
+      </g>
+      <g transform="translate(403 95)">
+        <rect width="111" height="49" rx="9" fill="#0a1220" stroke="#756b93"/>
+        <circle cx="17" cy="17" r="4" fill="#b7a6e8"/><text x="30" y="21" fill="#d7deeb" font-size="10">PANEL</text>
+        <text x="17" y="37" fill="#756c91" font-size="8">LOCAL / LAN</text>
+      </g>
+      <g transform="translate(203 47)">
+        <circle cx="53" cy="45" r="53" fill="#b7a6e8" opacity=".14" filter="url(#wand-glow)" class="wand-ring"/>
+        <rect x="0" y="0" width="106" height="90" rx="17" fill="#10182a" stroke="#b7a6e8"/>
+        <path d="M30 28H76M30 42H64M30 56H72" stroke="#d3c9f2" stroke-width="3" stroke-linecap="round"/>
+        <path d="M37 70H69" stroke="#67e8f9" stroke-width="2"/>
+        <text x="53" y="105" text-anchor="middle" fill="#a99acb" font-size="8" letter-spacing="1.4">WPF CORE</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(30 230)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9">
+    <text fill="#b7a6e8">CONNECT</text><text x="61" fill="#526984">→</text><text x="82" fill="#8da2fb">ADAPT</text><text x="128" fill="#526984">→</text><text x="149" fill="#67e8f9">EXTEND</text>
+    <text x="521" text-anchor="end" fill="#756c91">PUBLIC FORK</text>
+  </g>
+</svg>

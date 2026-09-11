@@ -1,100 +1,91 @@
 <div align="center">
-
-<img src="./assets/hero.svg" width="100%" alt="Hung Nguyen — practical problems, personal projects" />
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=22&amp;duration=2800&amp;pause=1200&amp;color=73D8EF&amp;center=true&amp;vCenter=true&amp;width=680&amp;height=52&amp;lines=IT+Support+%E2%86%92+Software+Development;Exploring+automation+and+AI-powered+tools" width="680" alt="IT Support → Software Development. Exploring automation and AI-powered tools." />
-
-I work in **IT Support** and learn software development by building practical projects.<br>
-My interests include backend systems, REST APIs, automation, and experimenting with AI-powered tools.
-
-**IT Support → Software Development → Automation → AI**
-
+  <img src="./assets/hero.svg" width="100%" alt="Hung Nguyen — IT Support moving deeper into software development. I build useful things for everyday problems." />
 </div>
 
-<h2 align="center"><img src="./assets/section-tools.svg" width="480" alt="Tech Stack" /></h2>
+## A support mindset, applied to software
+
+I currently work in **IT Support**. It keeps me close to the small frictions that show up in real workflows: repeated clicks, awkward handoffs, and tools that almost fit. I am going deeper into software development by building web apps, desktop tools, REST APIs, and automations—with AI as another practical tool to explore.
+
+### Current loop
+
+> **01 / Notice** a repetitive problem &nbsp;→&nbsp; **02 / Build** the smallest useful fix<br />
+> **03 / Test** it in a real workflow &nbsp;→&nbsp; **04 / Simplify** the next version
+
+## Selected work
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/hungdeniubeo/Schedulework"><img src="./assets/project-schedulework.svg" width="100%" alt="Schedulework artwork showing an offline weekly shift timeline" /></a>
+      <h3><a href="https://github.com/hungdeniubeo/Schedulework">Schedulework</a></h3>
+      <p>An offline desktop shift planner with drag-and-drop assignment, overlap checks, editable staffing totals, and JPG export. Schedule data stays on the device.</p>
+      <p><code>Tauri 2</code> <code>React</code> <code>TypeScript</code> <code>Rust</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/hungdeniubeo/Wand-Enhancer"><img src="./assets/project-wand-enhancer.svg" width="100%" alt="Wand Enhancer artwork showing connected extension modules" /></a>
+      <h3><a href="https://github.com/hungdeniubeo/Wand-Enhancer">Wand Enhancer</a></h3>
+      <p>A public fork of an open-source .NET interoperability tool for local Wand configuration, client-side extensions, and an optional remote web panel.</p>
+      <p><code>C#</code> <code>.NET 4.8</code> <code>WPF</code> <code>Preact</code> <code>TypeScript</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/hungdeniubeo/Busbooking"><img src="./assets/project-busbooking.svg" width="100%" alt="Busbooking artwork showing route nodes and a booking flow" /></a>
+      <h3><a href="https://github.com/hungdeniubeo/Busbooking">Busbooking</a></h3>
+      <p>A full-stack bus booking project with a React/Vite client and a Java Spring Boot REST backend. The code includes JWT authentication and booking domain models.</p>
+      <p><code>React</code> <code>Vite</code> <code>Java</code> <code>Spring Boot</code> <code>MySQL</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/hungdeniubeo/Traffic-sign"><img src="./assets/project-traffic-sign.svg" width="100%" alt="Traffic Sign artwork showing a computer vision detection frame" /></a>
+      <h3><a href="https://github.com/hungdeniubeo/Traffic-sign">Traffic Sign</a></h3>
+      <p>A CNN-based German traffic-sign recognition project trained on GTSRB, with image and webcam inference plus saved evaluation artifacts.</p>
+      <p><code>Python</code> <code>Keras</code> <code>OpenCV</code> <code>scikit-learn</code></p>
+    </td>
+  </tr>
+</table>
+
+## Toolbox
+
+| | Technologies |
+| --- | --- |
+| **Build with** | `TypeScript` · `JavaScript` · `Python` · `Java` · `C#` · `Rust` |
+| **Ship with** | `React` · `Vite` · `Tauri` · `Spring Boot` · `REST APIs` |
+| **Work with** | `Git` · `GitHub Actions` · `Tailwind CSS` · `OpenCV` · `Keras` · `MySQL` |
+
+## Proof of work
 
 <p align="center">
-  <strong>Languages</strong><br><br>
-  <img src="https://skillicons.dev/icons?i=py,java,js,ts&amp;theme=dark" width="200" alt="Python, Java, JavaScript, TypeScript" />
-</p>
-<p align="center">
-  <strong>Web &amp; desktop</strong><br><br>
-  <img src="https://skillicons.dev/icons?i=react,nodejs,html,css,tauri&amp;theme=dark" width="250" alt="React, Node.js, HTML, CSS, Tauri" />
-</p>
-<p align="center">
-  <strong>Tools</strong><br><br>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode&amp;theme=dark" width="150" alt="Git, GitHub, VS Code" />
-</p>
-
-<h2 align="center"><img src="./assets/section-projects.svg" width="480" alt="Featured Projects" /></h2>
-
-<p align="center">Web applications, desktop tools, and a place to share my work.<br><sub>Open a project to see the details.</sub></p>
-
-<details open>
-<summary><b>Busbooking</b> · Online bus ticket booking</summary>
-
-<p><img src="./assets/project-busbooking.svg" width="360" alt="Illustration of a bus route, not an application screenshot" /></p>
-
-A web application with a React frontend and REST API backend.
-
-**Stack:** JavaScript · React · REST API<br>
-[View repository →](https://github.com/hungdeniubeo/Busbooking)
-
-</details>
-
-<details>
-<summary><b>Schedulework</b> · Offline desktop shift scheduling</summary>
-
-<p><img src="./assets/project-schedulework.svg" width="360" alt="Illustration of a shift schedule, not an application screenshot" /></p>
-
-Plan employee shifts with drag-and-drop, detect scheduling conflicts, and export schedules.
-
-**Stack:** Tauri · React · TypeScript<br>
-[View repository →](https://github.com/hungdeniubeo/Schedulework)
-
-</details>
-
-<details>
-<summary><b>Portfolio</b> · My personal website</summary>
-
-<p><img src="./assets/project-portfolio.svg" width="360" alt="Illustration of a webpage, not an application screenshot" /></p>
-
-My personal portfolio, built with HTML, CSS, and JavaScript and hosted on GitHub Pages.
-
-**Stack:** HTML · CSS · JavaScript<br>
-[View repository →](https://github.com/hungdeniubeo/hungdeniubeo.github.io) · [Visit website ↗](https://hungdeniubeo.github.io/)
-
-</details>
-
-<h2 align="center"><img src="./assets/section-activity.svg" width="480" alt="GitHub Stats" /></h2>
-
-<p align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=hungdeniubeo&amp;show_icons=true&amp;bg_color=111827&amp;title_color=91ADFF&amp;text_color=C7D2E8&amp;icon_color=73D8EF&amp;border_color=293550&amp;border_radius=14" width="420" alt="Hung Nguyen's GitHub statistics" />
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=hungdeniubeo&amp;layout=compact&amp;bg_color=111827&amp;title_color=91ADFF&amp;text_color=C7D2E8&amp;icon_color=73D8EF&amp;border_color=293550&amp;border_radius=14" width="350" alt="Most used languages across public repositories" />
-</p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=hungdeniubeo&amp;background=111827&amp;border=293550&amp;stroke=293550&amp;ring=91ADFF&amp;fire=73D8EF&amp;currStreakNum=C7D2E8&amp;sideNums=C7D2E8&amp;currStreakLabel=91ADFF&amp;sideLabels=C7D2E8&amp;dates=9CAECB&amp;border_radius=14" width="500" alt="GitHub contribution streak" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hungdeniubeo/hungdeniubeo/output/profile-3d-contrib/profile-night-view.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hungdeniubeo/hungdeniubeo/output/profile-3d-contrib/profile-season.svg" />
+    <img src="https://raw.githubusercontent.com/hungdeniubeo/hungdeniubeo/output/profile-3d-contrib/profile-night-view.svg" width="100%" alt="Hung Nguyen's 3D GitHub contribution calendar" />
+  </picture>
 </p>
 
 <details>
-<summary>Generated activity snapshot &amp; achievements</summary>
-
-<img src="./profile-summary-card-output/radical/0-profile-details.svg" width="100%" alt="Scheduled GitHub profile summary snapshot" />
-
-[Pull Shark · YOLO](https://github.com/hungdeniubeo?tab=achievements)
-
+  <summary><strong>Open the contribution trail</strong></summary>
+  <br />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hungdeniubeo/hungdeniubeo/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hungdeniubeo/hungdeniubeo/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/hungdeniubeo/hungdeniubeo/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated trail across Hung Nguyen's GitHub contribution graph" />
+  </picture>
 </details>
 
-<h2 align="center">Contributions</h2>
-
-<img src="https://raw.githubusercontent.com/hungdeniubeo/hungdeniubeo/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated GitHub contribution snake" />
-
-<h2 align="center">Contact</h2>
+## Contact
 
 <p align="center">
-  <a href="mailto:phihung3922@gmail.com"><img src="https://img.shields.io/badge/Email-223B57?style=flat&amp;logo=gmail&amp;logoColor=73D8EF" alt="Email" /></a>
-  <a href="https://github.com/hungdeniubeo"><img src="https://img.shields.io/badge/GitHub-223B57?style=flat&amp;logo=github&amp;logoColor=91ADFF" alt="GitHub" /></a>
-  <a href="https://www.facebook.com/phi.hung.794694"><img src="https://img.shields.io/badge/Facebook-223B57?style=flat&amp;logo=facebook&amp;logoColor=91ADFF" alt="Facebook" /></a>
-  <a href="https://www.youtube.com/@phihung3922-t6f"><img src="https://img.shields.io/badge/YouTube-292747?style=flat&amp;logo=youtube&amp;logoColor=E0A2CC" alt="YouTube" /></a>
-  <a href="https://www.tiktok.com/@hungdeniubeo"><img src="https://img.shields.io/badge/TikTok-292747?style=flat&amp;logo=tiktok&amp;logoColor=B8A1ED" alt="TikTok" /></a>
+  <a href="https://hungdeniubeo.github.io/">Portfolio</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:phihung3922@gmail.com">Email</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/hungdeniubeo">GitHub</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.facebook.com/phi.hung.794694">Facebook</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.youtube.com/@phihung3922-t6f">YouTube</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.tiktok.com/@hungdeniubeo">TikTok</a>
 </p>
+
+<p align="center"><em>If a workflow feels repetitive, I will probably try to automate it.</em></p>
