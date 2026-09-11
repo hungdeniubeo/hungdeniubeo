@@ -78,17 +78,30 @@ The tools behind the projects above, grouped by where they sit in the system.
 ## Contact
 
 <p align="center">
-  <a href="https://hungdeniubeo.github.io/">Portfolio</a>
-  &nbsp;·&nbsp;
-  <a href="mailto:phihung3922@gmail.com">Email</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/hungdeniubeo">GitHub</a>
-  &nbsp;·&nbsp;
-  <a href="https://www.facebook.com/phi.hung.794694">Facebook</a>
-  &nbsp;·&nbsp;
-  <a href="https://www.youtube.com/@phihung3922-t6f">YouTube</a>
-  &nbsp;·&nbsp;
-  <a href="https://www.tiktok.com/@hungdeniubeo">TikTok</a>
+  <sub>START HERE</sub>
 </p>
 
-<p align="center"><em>If a workflow feels repetitive, I will probably try to automate it.</em></p>
+<p align="center">
+  <a href="https://hungdeniubeo.github.io/"><kbd>Portfolio ↗</kbd></a>
+  &nbsp;
+  <a href="mailto:phihung3922@gmail.com"><kbd>Email ↗</kbd></a>
+  &nbsp;
+  <a href="https://github.com/hungdeniubeo"><kbd>GitHub ↗</kbd></a>
+</p>
+
+<p align="center">
+  <sub>
+    ELSEWHERE &nbsp;/&nbsp;
+    <a href="https://www.facebook.com/phi.hung.794694">Facebook</a>
+    &nbsp;·&nbsp;
+    <a href="https://www.youtube.com/@phihung3922-t6f">YouTube</a>
+    &nbsp;·&nbsp;
+    <a href="https://www.tiktok.com/@hungdeniubeo">TikTok</a>
+  </sub>
+</p>
+
+<p align="center">
+  <img src="./assets/accent-divider.svg" width="220" alt="" />
+</p>
+
+<p align="center"><samp>If a workflow feels repetitive, I will probably try to automate it.</samp></p>
