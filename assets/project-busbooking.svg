@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="140" viewBox="0 0 360 140" role="img" aria-label="busbooking project illustration">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#397cdd"/><stop offset="1" stop-color="#182039"/></linearGradient></defs>
+<rect width="360" height="140" rx="12" fill="url(#bg)"/><path d="M-20 116C90 116 55 31 168 31S244 107 380 76" fill="none" stroke="#99dfee" stroke-opacity=".25" stroke-width="28"/><path d="M-20 116C90 116 55 31 168 31S244 107 380 76" fill="none" stroke="#b4edfa" stroke-width="2" stroke-dasharray="6 7"/><circle cx="143" cy="34" r="9" fill="#90ebf5"/><circle cx="279" cy="90" r="9" fill="#90ebf5"/>
+<path d="M16 123H49" stroke="#73dbef" stroke-width="3"/>
+</svg>

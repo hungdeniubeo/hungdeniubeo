@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="140" viewBox="0 0 360 140" role="img" aria-label="schedulework project illustration">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#6554ae"/><stop offset="1" stop-color="#182039"/></linearGradient></defs>
+<rect width="360" height="140" rx="12" fill="url(#bg)"/><g transform="translate(87 22) rotate(-7 100 55)"><rect width="191" height="93" rx="8" fill="#c5b8ed" fill-opacity=".13" stroke="#c5b8ed" stroke-opacity=".5"/><path d="M0 26H191M48 26V93M96 26V93M144 26V93" stroke="#b4a6dc" stroke-opacity=".4"/><rect x="8" y="35" width="79" height="15" rx="4" fill="#b9a5ef"/><rect x="104" y="57" width="76" height="15" rx="4" fill="#8d9deb"/><circle cx="14" cy="13" r="3" fill="#d5caf6"/><path d="M28 13H76" stroke="#d5caf6" stroke-width="3"/></g>
+<path d="M16 123H49" stroke="#baa5ec" stroke-width="3"/>
+</svg>
