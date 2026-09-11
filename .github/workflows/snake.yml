@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Generate snake animation
         uses: Platane/snk@v3
@@ -26,15 +26,15 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%2373D8EF&color_dots=%23161B22,%23223B57,%233B6EA8,%235486EE,%23AD92E4
 
+      - name: Fix dist permissions
+        run: sudo chown -R "$(id -u):$(id -g)" dist
+
       - name: Add breathing room around snake canvases
         run: |
           for file in dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg; do
             sed -i 's/viewBox="-16 -32 880 192" width="880" height="192"/viewBox="-24 -40 896 208" width="896" height="208"/' "$file"
             grep -q 'viewBox="-24 -40 896 208"' "$file"
           done
-
-      - name: Fix dist permissions
-        run: sudo chown -R "$(id -u):$(id -g)" dist
 
       - name: Generate 3D contribution calendar
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
