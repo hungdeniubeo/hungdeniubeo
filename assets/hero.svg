@@ -1,39 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
-<title id="title">Hung Nguyen — systems, software, and the next idea</title>
-<desc id="desc">IT Support, software development, automation, and AI exploration. Blue and violet folded ribbons frame a personal developer portfolio.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+<title id="title">Hung Nguyen</title>
+<desc id="desc">Practical problems. Personal projects. A blue and violet folded-ribbon developer portfolio banner.</desc>
 <defs>
- <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101c31"/><stop offset="1" stop-color="#161326"/></linearGradient>
- <linearGradient id="ribbon" x2=".8" y2="1"><stop stop-color="#66e0ef"/><stop offset=".45" stop-color="#477df5"/><stop offset="1" stop-color="#a48bfa"/></linearGradient>
- <linearGradient id="fold" x2="1" y2="1"><stop stop-color="#283b79"/><stop offset="1" stop-color="#9877db"/></linearGradient>
- <radialGradient id="aura"><stop stop-color="#6c59bc" stop-opacity=".3"/><stop offset="1" stop-color="#6c59bc" stop-opacity="0"/></radialGradient>
- <clipPath id="clip"><rect width="1200" height="400" rx="24"/></clipPath>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101c31"/><stop offset="1" stop-color="#191529"/></linearGradient>
+ <linearGradient id="ribbon" x2="1" y2="1"><stop stop-color="#73d8ef"/><stop offset=".5" stop-color="#5486ee"/><stop offset="1" stop-color="#ad92e4"/></linearGradient>
+ <clipPath id="clip"><rect width="1200" height="260" rx="22"/></clipPath>
 </defs>
 <g clip-path="url(#clip)">
- <rect width="1200" height="400" fill="url(#bg)"/>
- <ellipse cx="995" cy="200" rx="340" ry="310" fill="url(#aura)"/>
- <path d="M880 -40L1140 50L969 214L1205 354L1130 440L788 228L960 77L850 38Z" fill="#0b1224" opacity=".5" transform="translate(14 18)"/>
- <path d="M880 -40L1140 50L969 214L1205 354L1130 440L788 228L960 77L850 38Z" fill="url(#ribbon)"/>
- <path d="M788 228L969 214L1205 354L1130 440Z" fill="url(#fold)"/>
- <path d="M880 -40L1140 50L969 214M788 228L1130 440" fill="none" stroke="#c8e8ff" stroke-opacity=".45" stroke-width="2"/>
- <path d="M1136 59L972 214" stroke="#eefaff" stroke-width="3" stroke-linecap="round" stroke-dasharray="24 240" opacity=".7">
-  <animate attributeName="stroke-dashoffset" values="264;0;0" keyTimes="0;.3;1" dur="7s" repeatCount="indefinite"/>
- </path>
- <circle cx="1091" cy="266" r="9" fill="#e0a2cc"/>
- <g font-family="Arial, Helvetica, sans-serif">
-  <text x="56" y="62" fill="#80d4e8" font-size="16" font-weight="700" letter-spacing="3">SYSTEMS / SOFTWARE / CURIOSITY</text>
-  <text x="52" y="159" fill="#f4f6fc" font-size="78" font-weight="700" letter-spacing="-3">Hung Nguyen.</text>
-  <text x="56" y="210" fill="#c7d2e8" font-size="26">Practical problems. Personal projects.</text>
-  <text x="56" y="247" fill="#9caecb" font-size="22">IT Support — learning through building.</text>
-  <path d="M56 291H684" stroke="#34415b"/>
-  <g font-size="16" font-weight="700">
-   <text x="56" y="335" fill="#72d6e8">IT SUPPORT</text>
-   <text x="191" y="335" fill="#687b9c">→</text>
-   <text x="224" y="335" fill="#92b1ff">SOFTWARE</text>
-   <text x="354" y="335" fill="#687b9c">→</text>
-   <text x="388" y="335" fill="#b7a3ed">AUTOMATION</text>
-   <text x="537" y="335" fill="#687b9c">→</text>
-   <text x="573" y="335" fill="#e0a2cc">AI</text>
-  </g>
+ <rect width="1200" height="260" fill="url(#bg)"/>
+ <path d="M-55 -30L177 66L73 181L205 292L120 319L-34 176L74 74L-73 20" fill="url(#ribbon)" opacity=".75"/>
+ <path d="M1249 -46L1044 75L1145 178L1011 282L1100 315L1251 180L1151 81L1280 4" fill="url(#ribbon)" opacity=".85"/>
+ <path d="M1044 75L1145 178L1011 282" fill="none" stroke="#d4c4f6" stroke-opacity=".5" stroke-width="2"/>
+ <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+  <text x="600" y="61" font-size="16" letter-spacing="4" fill="#8ad4e9">SYSTEMS / SOFTWARE / CURIOSITY</text>
+  <text x="600" y="149" font-size="78" font-weight="700" letter-spacing="-2" fill="#f4f6fc">Hung Nguyen.</text>
+  <text x="600" y="201" font-size="24" fill="#c7d2e8">Practical problems. Personal projects.</text>
  </g>
 </g>
 </svg>
