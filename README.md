@@ -44,13 +44,16 @@ I currently work in **IT Support**. It keeps me close to the small frictions tha
   </tr>
 </table>
 
-## Toolbox
+## Working set
 
-| | Technologies |
-| --- | --- |
-| **Build with** | `TypeScript` · `JavaScript` · `Python` · `Java` · `C#` · `Rust` |
-| **Ship with** | `React` · `Vite` · `Tauri` · `Spring Boot` · `REST APIs` |
-| **Work with** | `Git` · `GitHub Actions` · `Tailwind CSS` · `OpenCV` · `Keras` · `MySQL` |
+The tools behind the projects above, grouped by where they sit in the system.
+
+<p align="center">
+  <picture>
+    <source media="(max-width: 640px)" srcset="./assets/toolbox-system-mobile.svg" />
+    <img src="./assets/toolbox-system.svg" width="100%" alt="Working set: React, TypeScript and Vite for interfaces; Tauri, Rust, C sharp, .NET and WPF for desktop tools; Java, Spring Boot, REST APIs and MySQL for services; Python, Keras and OpenCV for computer vision; Git and GitHub Actions for delivery." />
+  </picture>
+</p>
 
 ## Proof of work
 
