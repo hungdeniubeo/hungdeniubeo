@@ -42,11 +42,11 @@
 </p>
 
 <p align="center">
-  <img src="./assets/phi-hung-dragon-banner-animated.gif" width="100%" alt="Animated 3D Dragon Banner" />
+  <img src="./assets/dragon-core-banner.svg" width="100%" alt="Animated Cyber Dragon Emblem" />
 </p>
 
 <p align="center">
-  <samp>⚡ DRAGON CORE ACTIVE // DEPTH · MOTION · CODE · CRAFT ⚡</samp>
+  <samp>⚡ DRAGON SYSTEM // BUILD · TEST · IMPROVE ⚡</samp>
 </p>
 
 <p align="center">
