@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="118" viewBox="0 0 1200 118" role="img" aria-label="PHI HÙNG Dragon Core animated HUD">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset=".5" stop-color="#07162d"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" x2="1">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset=".48" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="orb">
+      <stop offset="0" stop-color="#e0f2fe" stop-opacity="1"/>
+      <stop offset=".25" stop-color="#38bdf8" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#2563eb" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="scan" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M0 7.5H8" stroke="#93c5fd" stroke-opacity=".045"/>
+    </pattern>
+    <clipPath id="clip"><rect width="1200" height="118" rx="22"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="118" rx="22" fill="url(#bg)"/>
+    <rect width="1200" height="118" fill="url(#scan)"/>
+    <ellipse cx="600" cy="116" rx="540" ry="78" fill="#2563eb" opacity=".08" filter="url(#glow)">
+      <animate attributeName="opacity" values=".05;.14;.05" dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <g fill="none" stroke-linecap="round">
+      <path d="M56 78 C190 10 350 13 458 70" stroke="#38bdf8" stroke-opacity=".48" stroke-width="2.2" filter="url(#glow)"/>
+      <path d="M1144 78 C1010 10 850 13 742 70" stroke="#a78bfa" stroke-opacity=".48" stroke-width="2.2" filter="url(#glow)"/>
+      <path d="M90 92 C235 42 358 42 478 84" stroke="#60a5fa" stroke-opacity=".19"/>
+      <path d="M1110 92 C965 42 842 42 722 84" stroke="#60a5fa" stroke-opacity=".19"/>
+      <path d="M16 105 H1184" stroke="url(#neon)" stroke-opacity=".8" stroke-width="1.5" stroke-dasharray="18 16">
+        <animate attributeName="stroke-dashoffset" from="0" to="-68" dur="3s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <g opacity=".55">
+      <path d="M0 110 L260 70 M1200 110 L940 70" stroke="#38bdf8" stroke-opacity=".18"/>
+      <path d="M130 118 L350 72 M1070 118 L850 72" stroke="#818cf8" stroke-opacity=".16"/>
+      <path d="M275 118 L430 74 M925 118 L770 74" stroke="#38bdf8" stroke-opacity=".14"/>
+    </g>
+
+    <g filter="url(#glow)">
+      <circle cy="58" r="5" fill="url(#orb)">
+        <animate attributeName="cx" values="84;300;84" dur="6.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".3;1;.3" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cy="58" r="5" fill="url(#orb)">
+        <animate attributeName="cx" values="1116;900;1116" dur="6.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".3;1;.3" dur="3.2s" begin="-1.6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" text-anchor="middle">
+      <text x="600" y="46" fill="#e2e8f0" font-size="13" letter-spacing="7">PHI HÙNG // DRAGON CORE</text>
+      <text x="600" y="76" fill="url(#neon)" font-size="22" font-weight="700" letter-spacing="5" filter="url(#glow)">3D NEON ASCENSION</text>
+      <text x="600" y="96" fill="#94a3b8" font-size="9" letter-spacing="4">ANIMATED PROFILE SIGNATURE</text>
+    </g>
+
+    <rect x="1" y="1" width="1198" height="116" rx="21" fill="none" stroke="url(#neon)" stroke-opacity=".32"/>
+  </g>
+</svg>
