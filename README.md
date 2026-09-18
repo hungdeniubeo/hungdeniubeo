@@ -1,5 +1,5 @@
 <!-- ═══════════════════════════════════════════════════════════════════════════
-  Phi Hùng · GitHub profile README
+  PHI HÙNG · GitHub profile README
   Visual system: midnight navy · electric blue · clean technical typography
 ═══════════════════════════════════════════════════════════════════════════ -->
 
@@ -7,7 +7,7 @@
   <img
     src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,45:0f172a,100:2563eb&height=230&section=header&text=PHI%20H%C3%9ANG&fontSize=64&fontColor=ffffff&fontAlignY=36&desc=IT%20Support%20%7C%20Software%20Engineering%20%7C%20Building%20useful%20things&descAlignY=58&descSize=17&animation=fadeIn"
     width="100%"
-    alt="Phi Hùng — IT Support and Software Engineering"
+    alt="PHI HÙNG — IT Support and Software Engineering"
   />
 </p>
 
@@ -45,7 +45,7 @@
 
 ---
 
-## ✦ Hello, I’m Phi Hùng
+## ✦ Hello, I’m PHI HÙNG
 
 I work at the intersection of **IT support, software engineering, and practical product building**.
 
@@ -134,7 +134,7 @@ I care about software that is not only technically interesting, but also **clear
     <td width="50%" valign="top">
       <p align="center">
         <a href="https://github.com/hungdeniubeo/Schedulework">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=hungdeniubeo&repo=Schedulework&theme=transparent&hide_border=true&title_color=58A6FF&text_color=8B949E&icon_color=58A6FF" width="100%" alt="ScheduleWork repository card" />
+          <img src="./assets/project-schedulework.svg" width="100%" alt="ScheduleWork Desktop project artwork" />
         </a>
       </p>
       <h3>ScheduleWork Desktop</h3>
@@ -251,22 +251,60 @@ I care about software that is not only technically interesting, but also **clear
 
 ## 📊 GitHub activity
 
-<p align="center">
-  <a href="https://github.com/hungdeniubeo">
-    <img height="175" src="https://github-readme-stats.vercel.app/api?username=hungdeniubeo&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&hide_border=true&bg_color=00000000&title_color=58A6FF&text_color=8B949E&icon_color=58A6FF" alt="GitHub statistics" />
-  </a>
-  <a href="https://github.com/hungdeniubeo">
-    <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hungdeniubeo&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=58A6FF&text_color=8B949E" alt="Most used languages" />
-  </a>
-</p>
+<table align="center">
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://img.shields.io/github/followers/hungdeniubeo?style=for-the-badge&label=FOLLOWERS&color=2563eb&logo=github&logoColor=white" alt="GitHub followers" /><br />
+      <sub>People following the journey</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://img.shields.io/github/commit-activity/y/hungdeniubeo/Schedulework-Web?style=for-the-badge&label=PROJECT%20COMMITS&color=7c3aed&logo=git&logoColor=white" alt="Project commits" /><br />
+      <sub>Shipping and iterating</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://img.shields.io/github/last-commit/hungdeniubeo/hungdeniubeo?style=for-the-badge&label=PROFILE%20UPDATED&color=0ea5e9&logo=git&logoColor=white" alt="Profile last updated" /><br />
+      <sub>Always improving</sub>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
+  <strong>Languages across my projects</strong><br />
+  <code>TypeScript</code>
+  <code>JavaScript</code>
+  <code>Python</code>
+  <code>Java</code>
+  <code>SQL</code>
+  <code>HTML/CSS</code>
+  <code>Rust</code>
+</p><p align="center">
   <img src="https://streak-stats.demolab.com?user=hungdeniubeo&theme=transparent&hide_border=true&ring=58A6FF&fire=F78166&currStreakLabel=58A6FF&sideLabels=8B949E&dates=8B949E" alt="GitHub contribution streak" />
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=hungdeniubeo&theme=algolia&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" alt="GitHub trophies" />
-</p>
+<table align="center">
+  <tr>
+    <td align="center" width="25%">
+      <h3>⚡</h3>
+      <strong>Build</strong><br />
+      <sub>Web and desktop apps</sub>
+    </td>
+    <td align="center" width="25%">
+      <h3>🧪</h3>
+      <strong>Validate</strong><br />
+      <sub>Testing and edge cases</sub>
+    </td>
+    <td align="center" width="25%">
+      <h3>🔐</h3>
+      <strong>Protect</strong><br />
+      <sub>Permissions and safe data</sub>
+    </td>
+    <td align="center" width="25%">
+      <h3>♻️</h3>
+      <strong>Improve</strong><br />
+      <sub>One useful iteration at a time</sub>
+    </td>
+  </tr>
+</table>
 
 <details>
   <summary><strong>Open the contribution trail</strong></summary>
@@ -314,7 +352,7 @@ I care about software that is not only technically interesting, but also **clear
     <img src="https://img.shields.io/badge/Portfolio-Visit%20website-2563eb?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio website" />
   </a>
   <a href="mailto:phihung3922@gmail.com">
-    <img src="https://img.shields.io/badge/Email-phihung3922%40gmail.com-0ea5e9?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Phi Hùng" />
+    <img src="https://img.shields.io/badge/Email-phihung3922%40gmail.com-0ea5e9?style=for-the-badge&logo=gmail&logoColor=white" alt="Email PHI HÙNG" />
   </a>
   <a href="https://github.com/hungdeniubeo">
     <img src="https://img.shields.io/badge/GitHub-Follow%20my%20work-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
