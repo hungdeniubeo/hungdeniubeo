@@ -1,13 +1,13 @@
-<!-- ═══════════════════════════════════════════════════════════════════════════
-  PHI HÙNG · GitHub profile README
-  Visual system: midnight navy · electric blue · clean technical typography
-═══════════════════════════════════════════════════════════════════════════ -->
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  PHI HÙNG · GitHub Profile README
+  Style: Premium Dark · Cyber Dragon · Professional Portfolio
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
 
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,45:0f172a,100:2563eb&height=230&section=header&text=PHI%20H%C3%99NG&fontSize=64&fontColor=ffffff&fontAlignY=36&desc=IT%20Support%20%7C%20Software%20Engineering%20%7C%20Building%20useful%20things&descAlignY=58&descSize=17&animation=fadeIn"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,45:0f172a,100:2563eb&height=220&section=header&text=PHI%20H%C3%99NG&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=IT%20Support%20%C2%B7%20Software%20Engineering%20%C2%B7%20Building%20useful%20systems&descAlignY=60&descSize=16&animation=fadeIn"
     width="100%"
-    alt="PHI HÙNG — IT Support and Software Engineering"
+    alt="PHI HÙNG Header"
   />
 </p>
 
@@ -16,107 +16,80 @@
     <img src="https://img.shields.io/badge/GitHub-hungdeniubeo-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="https://hungdeniubeo.github.io/">
-    <img src="https://img.shields.io/badge/Portfolio-visit-2563eb?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Portfolio-Visit-2563eb?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
   </a>
   <a href="mailto:phihung3922@gmail.com">
-    <img src="https://img.shields.io/badge/Email-contact-0ea5e9?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-Contact-0ea5e9?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=hungdeniubeo&style=for-the-badge&color=2563eb&label=PROFILE+VIEWS" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=hungdeniubeo&style=for-the-badge&color=2563eb&label=PROFILE+VIEWS" alt="Profile Views" />
 </p>
 
 <p align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=820&lines=I+turn+repetitive+workflows+into+useful+software.;Support+mindset.+Builder+energy.+Quality+focus.;From+troubleshooting+to+shipping+real+products."
-    alt="Animated introduction"
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2600&pause=800&color=58A6FF&center=true&vCenter=true&width=900&lines=Turning+real+workflow+problems+into+working+software.;Support+mindset+%2B+Builder+energy+%2B+Quality+focus.;Frontend%2C+Backend%2C+Testing%2C+Automation."
+    alt="Typing Intro"
   />
 </p>
 
 <p align="center">
-  <a href="https://github.com/hungdeniubeo/Schedulework-Web">
-    <img src="https://img.shields.io/badge/Featured-ScheduleWork%20Web-2563eb?style=flat-square&logo=react&logoColor=white" alt="Featured project" />
-  </a>
-  <a href="https://schedulework-web.vercel.app/">
-    <img src="https://img.shields.io/badge/Live-Demo-16a34a?style=flat-square&logo=vercel&logoColor=white" alt="Live demo" />
-  </a>
-  <a href="https://github.com/hungdeniubeo/hungdeniubeo/commits/main">
-    <img src="https://img.shields.io/github/last-commit/hungdeniubeo/hungdeniubeo?style=flat-square&color=8b5cf6&logo=git&logoColor=white" alt="Last commit" />
-  </a>
+  <img src="./assets/dragon-hud-top.svg" width="100%" alt="PHI HÙNG Dragon Core HUD" />
+</p>
+
+<h1 align="center">🐉 PHI HÙNG</h1>
+
+<p align="center">
+  <strong>IT Support · Software Engineering · Problem Solver · Product Builder</strong>
 </p>
 
 <p align="center">
-  <img src="./assets/dragon-hud-top.svg" width="100%" alt="PHI HÙNG animated Dragon Core HUD" />
-  <br />
-  <img src="./assets/phi-hung-dragon-banner-animated.gif" width="100%" alt="Animated 3D Chinese dragon banner for PHI HÙNG" />
-  <br />
-  <img src="./assets/dragon-hud-bottom.svg" width="100%" alt="Animated cyber perspective stage" />
+  <img src="./assets/phi-hung-dragon-banner-animated.gif" width="100%" alt="Animated 3D Dragon Banner" />
 </p>
 
 <p align="center">
-  <samp>⚡ DRAGON MODE // ONLINE · DEPTH LAYER // ACTIVE · BUILD ENERGY // MAX</samp>
+  <samp>⚡ DRAGON CORE ACTIVE // DEPTH · MOTION · CODE · CRAFT ⚡</samp>
+</p>
+
+<p align="center">
+  <img src="./assets/dragon-hud-bottom.svg" width="100%" alt="Animated Cyber Stage" />
 </p>
 
 ---
 
-## ✦ Hello, I’m PHI HÙNG
+<h2 align="center">✦ ABOUT ME</h2>
 
-I work at the intersection of **IT support, software engineering, and practical product building**.
+<p align="center">
+  <sub>Support mindset. Builder energy. Quality focus.</sub>
+</p>
 
-My support background taught me to look closely at how people actually work: where a process slows down, where information gets lost, and which small friction is repeated every day. I turn those observations into responsive web apps, desktop tools, REST APIs, automations, and experiments in computer vision.
+I’m **PHI HÙNG**, a software engineering builder who enjoys working where **technology meets real-world workflow problems**.
 
-I care about software that is not only technically interesting, but also **clear to use, safe to change, and useful in a real workflow**.
+My IT support background taught me to notice the things that slow people down: repetitive steps, scattered information, unclear processes, and fragile workflows. I turn those observations into practical software with a focus on **clarity, maintainability, usability, and reliability**.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Location-Ho%20Chi%20Minh%20City%2C%20Vietnam-0f172a?style=flat-square&logo=googlemaps&logoColor=white" alt="Location" />
+  <img src="https://img.shields.io/badge/Focus-Frontend%20%C2%B7%20Backend%20%C2%B7%20QA%20%C2%B7%20Automation-0f172a?style=flat-square&logo=windowsterminal&logoColor=white" alt="Focus" />
+  <img src="https://img.shields.io/badge/Mindset-Build%20%E2%86%92%20Test%20%E2%86%92%20Improve-0f172a?style=flat-square&logo=rocket&logoColor=white" alt="Mindset" />
+</p>
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>What I’m doing now</h3>
+      <h3>🛠 Technical Side</h3>
       <ul>
-        <li>Building internal tools and workforce scheduling products.</li>
-        <li>Growing deeper in React, TypeScript, databases, testing, and system design.</li>
-        <li>Connecting support experience with software engineering practice.</li>
+        <li>React, TypeScript, JavaScript, modern frontend tooling</li>
+        <li>Node.js, Java, Spring Boot, Python and REST APIs</li>
+        <li>PostgreSQL, MySQL, Supabase and data integration</li>
+        <li>Testing, debugging, troubleshooting and automation</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>What I bring</h3>
+      <h3>🧠 Working Style</h3>
       <ul>
-        <li>A troubleshooting mindset shaped by real users and real constraints.</li>
-        <li>Careful attention to edge cases, permissions, and maintainability.</li>
-        <li>Curiosity, ownership, and the habit of improving the next iteration.</li>
+        <li>Start from the real workflow, not only the feature list</li>
+        <li>Prefer clear structure over unnecessary complexity</li>
+        <li>Care about edge cases, permissions and maintainability</li>
+        <li>Ship, validate, learn and improve the next iteration</li>
       </ul>
-    </td>
-  </tr>
-</table>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Location-Ho%20Chi%20Minh%20City%2C%20Vietnam-0f172a?style=flat-square&logo=googlemaps&logoColor=white" alt="Location" />
-  <img src="https://img.shields.io/badge/Role-IT%20Support%20%7C%20Software%20Engineering-0f172a?style=flat-square&logo=windowsterminal&logoColor=white" alt="Role" />
-  <img src="https://img.shields.io/badge/Mindset-Ship%20%E2%86%92%20Learn%20%E2%86%92%20Improve-0f172a?style=flat-square&logo=rocket&logoColor=white" alt="Mindset" />
-</p>
-
----
-
-## ⚙️ My engineering loop
-
-<table align="center">
-  <tr>
-    <td align="center" width="25%">
-      <h2>01</h2>
-      <strong>Notice</strong><br />
-      <sub>Find the repeated friction.</sub>
-    </td>
-    <td align="center" width="25%">
-      <h2>02</h2>
-      <strong>Build</strong><br />
-      <sub>Ship the smallest useful fix.</sub>
-    </td>
-    <td align="center" width="25%">
-      <h2>03</h2>
-      <strong>Validate</strong><br />
-      <sub>Test it in a real workflow.</sub>
-    </td>
-    <td align="center" width="25%">
-      <h2>04</h2>
-      <strong>Simplify</strong><br />
-      <sub>Make the next version clearer.</sub>
     </td>
   </tr>
 </table>
@@ -125,33 +98,45 @@ I care about software that is not only technically interesting, but also **clear
   <img src="./assets/accent-divider.svg" width="240" alt="" />
 </p>
 
-## 🚀 Featured work
+<h2 align="center">🚀 FEATURED PROJECTS</h2>
+
+<p align="center">
+  <sub>Selected work that reflects how I design, build and improve useful systems.</sub>
+</p>
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <p align="center">
         <a href="https://github.com/hungdeniubeo/Schedulework-Web">
-          <img src="./assets/project-schedulework.svg" width="100%" alt="ScheduleWork project artwork" />
+          <img src="./assets/project-schedulework.svg" width="100%" alt="ScheduleWork Web" />
         </a>
       </p>
       <h3>ScheduleWork Web <sup>FEATURED</sup></h3>
-      <p>A modern workforce scheduling platform for a small internal team. Employees submit availability; admins review, plan, validate, publish, and export the official schedule.</p>
+      <p>A workforce scheduling platform where employees submit availability and admins review, plan, validate, publish and export the official schedule.</p>
       <p>
-        <a href="https://schedulework-web.vercel.app/"><img src="https://img.shields.io/badge/Live%20app-open-16a34a?style=flat-square&logo=vercel&logoColor=white" alt="Open live app" /></a>
-        <a href="https://github.com/hungdeniubeo/Schedulework-Web"><img src="https://img.shields.io/badge/Source-view-2563eb?style=flat-square&logo=github&logoColor=white" alt="View source" /></a>
+        <a href="https://schedulework-web.vercel.app/">
+          <img src="https://img.shields.io/badge/Live-Demo-16a34a?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo" />
+        </a>
+        <a href="https://github.com/hungdeniubeo/Schedulework-Web">
+          <img src="https://img.shields.io/badge/Source-Code-2563eb?style=flat-square&logo=github&logoColor=white" alt="Source Code" />
+        </a>
       </p>
       <p><code>React 19</code> <code>TypeScript</code> <code>Vite</code> <code>Supabase</code> <code>PostgreSQL</code> <code>RLS</code></p>
     </td>
     <td width="50%" valign="top">
       <p align="center">
         <a href="https://github.com/hungdeniubeo/Schedulework">
-          <img src="./assets/project-schedulework.svg" width="100%" alt="ScheduleWork Desktop project artwork" />
+          <img src="./assets/project-schedulework.svg" width="100%" alt="ScheduleWork Desktop" />
         </a>
       </p>
       <h3>ScheduleWork Desktop</h3>
-      <p>An offline-first desktop scheduler with drag-and-drop assignment, conflict detection, staffing totals, split shifts, and high-resolution JPG export. Data stays on the device.</p>
-      <p><a href="https://github.com/hungdeniubeo/Schedulework"><img src="https://img.shields.io/badge/Repository-explore-7c3aed?style=flat-square&logo=github&logoColor=white" alt="Explore ScheduleWork" /></a></p>
+      <p>An offline-first desktop scheduler with drag-and-drop assignment, conflict detection, staffing totals, split shifts and high-resolution export.</p>
+      <p>
+        <a href="https://github.com/hungdeniubeo/Schedulework">
+          <img src="https://img.shields.io/badge/Repository-Explore-7c3aed?style=flat-square&logo=github&logoColor=white" alt="Repository" />
+        </a>
+      </p>
       <p><code>Tauri 2</code> <code>React</code> <code>TypeScript</code> <code>Rust</code> <code>Tailwind CSS</code></p>
     </td>
   </tr>
@@ -159,43 +144,51 @@ I care about software that is not only technically interesting, but also **clear
     <td width="50%" valign="top">
       <p align="center">
         <a href="https://github.com/hungdeniubeo/Traffic-sign">
-          <img src="./assets/project-traffic-sign.svg" width="100%" alt="Traffic Sign computer vision artwork" />
+          <img src="./assets/project-traffic-sign.svg" width="100%" alt="Traffic Sign Recognition" />
         </a>
       </p>
       <h3>Traffic Sign Recognition</h3>
-      <p>A CNN-based computer-vision project trained on the GTSRB dataset, with image prediction, webcam inference, preprocessing, and evaluation artifacts.</p>
-      <p><a href="https://github.com/hungdeniubeo/Traffic-sign"><img src="https://img.shields.io/badge/Repository-explore-f97316?style=flat-square&logo=github&logoColor=white" alt="Explore Traffic Sign" /></a></p>
+      <p>A CNN-based computer-vision project trained on GTSRB with preprocessing, image prediction, webcam inference and evaluation artifacts.</p>
+      <p>
+        <a href="https://github.com/hungdeniubeo/Traffic-sign">
+          <img src="https://img.shields.io/badge/Repository-Explore-f97316?style=flat-square&logo=github&logoColor=white" alt="Repository" />
+        </a>
+      </p>
       <p><code>Python</code> <code>TensorFlow</code> <code>Keras</code> <code>OpenCV</code> <code>scikit-learn</code></p>
     </td>
     <td width="50%" valign="top">
       <p align="center">
         <a href="https://github.com/hungdeniubeo/Busbooking">
-          <img src="./assets/project-busbooking.svg" width="100%" alt="Busbooking project artwork" />
+          <img src="./assets/project-busbooking.svg" width="100%" alt="Bus Booking Platform" />
         </a>
       </p>
       <h3>Bus Booking Platform</h3>
-      <p>A full-stack booking project for browsing routes, checking schedules and seat availability, and making online reservations through a React client and REST backend.</p>
-      <p><a href="https://github.com/hungdeniubeo/Busbooking"><img src="https://img.shields.io/badge/Repository-explore-0ea5e9?style=flat-square&logo=github&logoColor=white" alt="Explore Bus Booking" /></a></p>
+      <p>A full-stack booking project for routes, schedules, seat availability and reservation workflows through a modern web interface and REST backend.</p>
+      <p>
+        <a href="https://github.com/hungdeniubeo/Busbooking">
+          <img src="https://img.shields.io/badge/Repository-Explore-0ea5e9?style=flat-square&logo=github&logoColor=white" alt="Repository" />
+        </a>
+      </p>
       <p><code>React</code> <code>Vite</code> <code>Node.js</code> <code>REST API</code> <code>MySQL</code></p>
     </td>
   </tr>
 </table>
 
 <details>
-  <summary><strong>More work and experiments</strong></summary>
+  <summary><strong>More projects and experiments</strong></summary>
   <br />
   <table>
     <tr>
       <td width="50%" valign="top">
         <strong>Wand Enhancer</strong><br />
-        A public .NET interoperability tool fork with local configuration, client-side extensions, and an optional remote web panel.<br /><br />
-        <code>C#</code> <code>.NET</code> <code>WPF</code> <code>Preact</code> <code>TypeScript</code><br />
+        A .NET interoperability tool with local configuration, client-side extensions and optional remote web control.<br /><br />
+        <code>C#</code> <code>.NET</code> <code>WPF</code> <code>Preact</code> <code>TypeScript</code><br /><br />
         <a href="https://github.com/hungdeniubeo/Wand-Enhancer">View repository →</a>
       </td>
       <td width="50%" valign="top">
         <strong>Personal Portfolio</strong><br />
-        A lightweight portfolio website presenting my projects, technical interests, and ongoing learning journey.<br /><br />
-        <code>HTML</code> <code>CSS</code> <code>JavaScript</code> <code>GitHub Pages</code><br />
+        A lightweight personal site presenting projects, technical interests and my ongoing learning journey.<br /><br />
+        <code>HTML</code> <code>CSS</code> <code>JavaScript</code> <code>GitHub Pages</code><br /><br />
         <a href="https://hungdeniubeo.github.io/">Open portfolio →</a>
       </td>
     </tr>
@@ -204,10 +197,10 @@ I care about software that is not only technically interesting, but also **clear
 
 ---
 
-## 🧰 Toolbox
+<h2 align="center">🧰 TECH STACK</h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,ts,js,html,css,tailwind,vite,tauri,rust,java,spring,python,fastapi,opencv,mysql,postgres,supabase,git,github,docker,figma&perline=11&theme=dark" alt="Technology icons" />
+  <img src="https://skillicons.dev/icons?i=react,ts,js,html,css,tailwind,vite,tauri,rust,java,spring,python,fastapi,opencv,mysql,postgres,supabase,git,github,docker,figma&perline=11&theme=dark" alt="Tech Stack" />
 </p>
 
 <table>
@@ -217,157 +210,114 @@ I care about software that is not only technically interesting, but also **clear
       React · TypeScript · JavaScript · HTML · CSS · Tailwind CSS · Vite
     </td>
     <td width="33%" valign="top">
-      <strong>Services and data</strong><br /><br />
+      <strong>Services & Data</strong><br /><br />
       Node.js · Java · Spring Boot · Python · FastAPI · REST APIs · MySQL · PostgreSQL · Supabase
     </td>
     <td width="33%" valign="top">
-      <strong>Quality and delivery</strong><br /><br />
-      Manual testing · Test cases · Postman · Git · GitHub Actions · Docker · Linux · Troubleshooting
+      <strong>Quality & Delivery</strong><br /><br />
+      Manual Testing · Test Cases · Postman · Git · GitHub Actions · Docker · Linux · Troubleshooting
     </td>
   </tr>
 </table>
 
 ---
 
-## 🧠 How I think about software
+<h2 align="center">🧠 ENGINEERING MINDSET</h2>
 
 > Good software is not just a feature that works once.  
-> It is a workflow that becomes easier, safer, and more predictable every day.
+> It is a workflow that becomes easier, safer and more predictable every day.
 
-<table>
+<table align="center">
   <tr>
     <td align="center" width="25%">
       <h3>🔍</h3>
-      <strong>Understand</strong><br />
-      <sub>Start with the people, process, and constraints.</sub>
+      <strong>Observe</strong><br />
+      <sub>Start from a real problem.</sub>
     </td>
     <td align="center" width="25%">
       <h3>🧱</h3>
-      <strong>Structure</strong><br />
-      <sub>Keep the domain, data, and UI understandable.</sub>
+      <strong>Build</strong><br />
+      <sub>Ship a practical solution.</sub>
     </td>
     <td align="center" width="25%">
       <h3>🧪</h3>
-      <strong>Verify</strong><br />
-      <sub>Test the happy path and the awkward edge cases.</sub>
+      <strong>Validate</strong><br />
+      <sub>Test workflows and edge cases.</sub>
     </td>
     <td align="center" width="25%">
       <h3>♻️</h3>
-      <strong>Improve</strong><br />
-      <sub>Use feedback to make the next release better.</sub>
+      <strong>Refine</strong><br />
+      <sub>Improve clarity and usability.</sub>
     </td>
   </tr>
 </table>
 
 ---
 
-## 📊 GitHub activity
+<h2 align="center">📊 GITHUB ACTIVITY</h2>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=hungdeniubeo&theme=transparent&hide_border=true&ring=58A6FF&fire=F78166&currStreakLabel=58A6FF&sideLabels=8B949E&dates=8B949E" alt="GitHub Streak" />
+</p>
 
 <table align="center">
   <tr>
     <td align="center" width="33%">
-      <img src="https://img.shields.io/github/followers/hungdeniubeo?style=for-the-badge&label=FOLLOWERS&color=2563eb&logo=github&logoColor=white" alt="GitHub followers" /><br />
+      <img src="https://img.shields.io/github/followers/hungdeniubeo?style=for-the-badge&label=FOLLOWERS&color=2563eb&logo=github&logoColor=white" alt="Followers" /><br />
       <sub>People following the journey</sub>
     </td>
     <td align="center" width="33%">
-      <img src="https://img.shields.io/github/commit-activity/y/hungdeniubeo/Schedulework-Web?style=for-the-badge&label=PROJECT%20COMMITS&color=7c3aed&logo=git&logoColor=white" alt="Project commits" /><br />
-      <sub>Shipping and iterating</sub>
+      <img src="https://img.shields.io/github/commit-activity/y/hungdeniubeo/Schedulework-Web?style=for-the-badge&label=PROJECT%20COMMITS&color=7c3aed&logo=git&logoColor=white" alt="Project Commits" /><br />
+      <sub>Building and iterating</sub>
     </td>
     <td align="center" width="33%">
-      <img src="https://img.shields.io/github/last-commit/hungdeniubeo/hungdeniubeo?style=for-the-badge&label=PROFILE%20UPDATED&color=0ea5e9&logo=git&logoColor=white" alt="Profile last updated" /><br />
+      <img src="https://img.shields.io/github/last-commit/hungdeniubeo/hungdeniubeo?style=for-the-badge&label=PROFILE%20UPDATED&color=0ea5e9&logo=git&logoColor=white" alt="Last Updated" /><br />
       <sub>Always improving</sub>
     </td>
   </tr>
 </table>
 
-<p align="center">
-  <strong>Languages across my projects</strong><br />
-  <code>TypeScript</code>
-  <code>JavaScript</code>
-  <code>Python</code>
-  <code>Java</code>
-  <code>SQL</code>
-  <code>HTML/CSS</code>
-  <code>Rust</code>
-</p><p align="center">
-  <img src="https://streak-stats.demolab.com?user=hungdeniubeo&theme=transparent&hide_border=true&ring=58A6FF&fire=F78166&currStreakLabel=58A6FF&sideLabels=8B949E&dates=8B949E" alt="GitHub contribution streak" />
-</p>
-
-<table align="center">
-  <tr>
-    <td align="center" width="25%">
-      <h3>⚡</h3>
-      <strong>Build</strong><br />
-      <sub>Web and desktop apps</sub>
-    </td>
-    <td align="center" width="25%">
-      <h3>🧪</h3>
-      <strong>Validate</strong><br />
-      <sub>Testing and edge cases</sub>
-    </td>
-    <td align="center" width="25%">
-      <h3>🔐</h3>
-      <strong>Protect</strong><br />
-      <sub>Permissions and safe data</sub>
-    </td>
-    <td align="center" width="25%">
-      <h3>♻️</h3>
-      <strong>Improve</strong><br />
-      <sub>One useful iteration at a time</sub>
-    </td>
-  </tr>
-</table>
-
 <details>
-  <summary><strong>Open the contribution trail</strong></summary>
+  <summary><strong>Open contribution visuals</strong></summary>
   <br />
   <p align="center">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hungdeniubeo/hungdeniubeo/output/profile-3d-contrib/profile-night-view.svg" />
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hungdeniubeo/hungdeniubeo/output/profile-3d-contrib/profile-season.svg" />
-      <img src="https://raw.githubusercontent.com/hungdeniubeo/hungdeniubeo/output/profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D GitHub contribution calendar" />
+      <img src="https://raw.githubusercontent.com/hungdeniubeo/hungdeniubeo/output/profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D Contribution Calendar" />
     </picture>
   </p>
   <p align="center">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hungdeniubeo/hungdeniubeo/output/github-contribution-grid-snake-dark.svg" />
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hungdeniubeo/hungdeniubeo/output/github-contribution-grid-snake.svg" />
-      <img src="https://raw.githubusercontent.com/hungdeniubeo/hungdeniubeo/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated contribution snake" />
+      <img src="https://raw.githubusercontent.com/hungdeniubeo/hungdeniubeo/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake" />
     </picture>
   </p>
 </details>
 
 ---
 
-## 🗺️ What’s next
+<h2 align="center">🎯 CURRENT FOCUS</h2>
 
-- Keep turning ScheduleWork into a smoother, safer scheduling experience.
-- Build focused tools that remove repetitive operational work.
-- Improve testing discipline, access control, and production reliability.
-- Keep learning across frontend engineering, backend systems, QA, and automation.
-
-<details>
-  <summary><strong>My definition of progress</strong></summary>
-  <br />
-  <p>
-    Progress is not only adding more features. It is reducing confusion, removing unnecessary steps,
-    making failure visible, and leaving the codebase easier for the next person to understand.
-  </p>
-</details>
+- Improving **ScheduleWork** into a smoother and more reliable scheduling system.
+- Building practical software for real operational workflows.
+- Growing deeper in **frontend engineering, backend systems, testing and automation**.
+- Turning technical knowledge into products people can actually use.
 
 ---
 
-## 🤝 Let’s connect
+<h2 align="center">🤝 CONNECT WITH ME</h2>
 
 <p align="center">
   <a href="https://hungdeniubeo.github.io/">
-    <img src="https://img.shields.io/badge/Portfolio-Visit%20website-2563eb?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio website" />
+    <img src="https://img.shields.io/badge/Portfolio-Visit%20Website-2563eb?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
   </a>
   <a href="mailto:phihung3922@gmail.com">
-    <img src="https://img.shields.io/badge/Email-phihung3922%40gmail.com-0ea5e9?style=for-the-badge&logo=gmail&logoColor=white" alt="Email PHI HÙNG" />
+    <img src="https://img.shields.io/badge/Email-phihung3922%40gmail.com-0ea5e9?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://github.com/hungdeniubeo">
-    <img src="https://img.shields.io/badge/GitHub-Follow%20my%20work-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
+    <img src="https://img.shields.io/badge/GitHub-Follow%20My%20Work-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
   </a>
 </p>
 
@@ -384,9 +334,9 @@ I care about software that is not only technically interesting, but also **clear
 </p>
 
 <p align="center">
-  <samp>If a workflow feels repetitive, I will probably try to automate it.</samp>
+  <samp>If a workflow feels repetitive, I’ll probably try to automate it.</samp>
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,100:020617&height=120&section=footer" width="100%" alt="" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,100:020617&height=120&section=footer" width="100%" alt="Footer" />
 </p>
