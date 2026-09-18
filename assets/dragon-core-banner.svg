@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">PHI HÙNG Cyber Dragon Emblem</title>
+  <desc id="desc">A clean animated cyber dragon emblem with neon blue and violet accents on a dark technical background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#020617"/>
+      <stop offset=".52" stop-color="#071326"/>
+      <stop offset="1" stop-color="#090c1c"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#38bdf8"/>
+      <stop offset=".5" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#3b82f6" stop-opacity=".18"/>
+      <stop offset=".55" stop-color="#3b82f6" stop-opacity=".055"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#93c5fd" stroke-opacity=".045"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <clipPath id="clip"><rect width="1200" height="420" rx="24"/></clipPath>
+    <style>
+      .dash { animation: dash 10s linear infinite; }
+      .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 3.8s ease-in-out infinite; }
+      .eye { animation: eye 2.8s ease-in-out infinite; }
+      .scan { animation: scan 6s linear infinite; }
+      @keyframes dash { to { stroke-dashoffset: -160; } }
+      @keyframes pulse { 0%,100% { opacity:.32; transform:scale(.92) } 50% { opacity:.9; transform:scale(1.04) } }
+      @keyframes eye { 0%,100% { opacity:.72 } 50% { opacity:1 } }
+      @keyframes scan { from { transform:translateY(-430px) } to { transform:translateY(430px) } }
+      @media (prefers-reduced-motion: reduce) { .dash,.pulse,.eye,.scan { animation:none!important } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="420" fill="url(#bg)"/>
+    <rect width="1200" height="420" fill="url(#grid)"/>
+    <ellipse cx="600" cy="205" rx="350" ry="205" fill="url(#halo)" class="pulse"/>
+    <ellipse cx="600" cy="206" rx="210" ry="210" fill="none" stroke="#60a5fa" stroke-opacity=".10"/>
+    <ellipse cx="600" cy="206" rx="164" ry="164" fill="none" stroke="#a78bfa" stroke-opacity=".08"/>
+
+    <g opacity=".4">
+      <path d="M50 82H280l26 18h124" fill="none" stroke="#38bdf8" stroke-opacity=".28"/>
+      <path d="M1150 82H920l-26 18H770" fill="none" stroke="#a78bfa" stroke-opacity=".28"/>
+      <path d="M50 338H280l26-18h124" fill="none" stroke="#60a5fa" stroke-opacity=".22"/>
+      <path d="M1150 338H920l-26-18H770" fill="none" stroke="#60a5fa" stroke-opacity=".22"/>
+    </g>
+
+    <g fill="none" stroke="url(#neon)" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+      <path d="M600 84 565 112 522 86 535 138 492 124 520 174 478 173 526 215 502 257 553 243 570 302 600 338"
+            stroke-width="3.2"/>
+      <path d="M600 84 635 112 678 86 665 138 708 124 680 174 722 173 674 215 698 257 647 243 630 302 600 338"
+            stroke-width="3.2"/>
+      <path d="M600 102 566 146 546 198 560 258 600 315 640 258 654 198 634 146Z"
+            stroke-width="2.4" stroke-opacity=".78"/>
+      <path d="M600 126 574 171 563 222 583 274 600 290 617 274 637 222 626 171Z"
+            stroke-width="1.8" stroke-opacity=".42"/>
+      <path d="M533 186 568 177 585 191 558 205Z" stroke-width="2.2"/>
+      <path d="M667 186 632 177 615 191 642 205Z" stroke-width="2.2"/>
+      <path d="M566 231 600 244 634 231" stroke-width="2"/>
+      <path d="M579 274 600 281 621 274" stroke-width="1.8" stroke-opacity=".72"/>
+    </g>
+
+    <g filter="url(#glow)" class="eye">
+      <path d="M543 189 568 184 578 191 558 198Z" fill="#67e8f9"/>
+      <path d="M657 189 632 184 622 191 642 198Z" fill="#c4b5fd"/>
+    </g>
+
+    <g fill="none" stroke="url(#neon)" stroke-width="1.4" stroke-linecap="round" opacity=".56">
+      <path d="M348 210H450" stroke-dasharray="5 10" class="dash"/>
+      <path d="M750 210H852" stroke-dasharray="5 10" class="dash"/>
+      <path d="M388 244H470" stroke-dasharray="3 9" class="dash"/>
+      <path d="M730 244H812" stroke-dasharray="3 9" class="dash"/>
+    </g>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+      <text x="70" y="66" fill="#64748b" font-size="11" letter-spacing="3">PHI HÙNG / DRAGON SIGNATURE</text>
+      <text x="1130" y="66" text-anchor="end" fill="#64748b" font-size="11" letter-spacing="3">BUILD · TEST · IMPROVE</text>
+      <text x="70" y="365" fill="#475569" font-size="10" letter-spacing="2.4">SYSTEM // ONLINE</text>
+      <text x="1130" y="365" text-anchor="end" fill="#475569" font-size="10" letter-spacing="2.4">CODE WITH INTENT</text>
+    </g>
+
+    <g class="scan" opacity=".18">
+      <rect x="0" y="0" width="1200" height="2" fill="#67e8f9" filter="url(#soft)"/>
+      <rect x="0" y="0" width="1200" height="1" fill="#e0f2fe"/>
+    </g>
+
+    <rect x="1" y="1" width="1198" height="418" rx="23" fill="none" stroke="url(#neon)" stroke-opacity=".2"/>
+    <path d="M28 28H180M1020 28h152M28 392h152M1020 392h152" stroke="url(#neon)" stroke-opacity=".45"/>
+  </g>
+</svg>
