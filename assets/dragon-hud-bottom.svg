@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="128" viewBox="0 0 1200 128" role="img" aria-label="Animated cyber perspective floor">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#06152d"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="g2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="c2"><rect width="1200" height="128" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#c2)">
+    <rect width="1200" height="128" rx="22" fill="url(#bg2)"/>
+    <path d="M0 8 H1200" stroke="url(#line)" stroke-width="2" filter="url(#g2)"/>
+
+    <g fill="none" stroke="#60a5fa" stroke-opacity=".16">
+      <path d="M600 10 L45 128"/><path d="M600 10 L170 128"/><path d="M600 10 L295 128"/>
+      <path d="M600 10 L420 128"/><path d="M600 10 L515 128"/><path d="M600 10 L685 128"/>
+      <path d="M600 10 L780 128"/><path d="M600 10 L905 128"/><path d="M600 10 L1030 128"/><path d="M600 10 L1155 128"/>
+      <path d="M365 60 H835"/><path d="M258 82 H942"/><path d="M135 106 H1065"/>
+    </g>
+
+    <ellipse cx="600" cy="24" rx="270" ry="18" fill="none" stroke="#38bdf8" stroke-opacity=".55" filter="url(#g2)">
+      <animate attributeName="rx" values="230;305;230" dur="4.2s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values=".2;.85;.2" dur="4.2s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <g fill="#7dd3fc" filter="url(#g2)">
+      <circle cx="250" cy="92" r="2.2"><animate attributeName="opacity" values=".1;1;.1" dur="1.8s" repeatCount="indefinite"/></circle>
+      <circle cx="355" cy="66" r="1.7"><animate attributeName="opacity" values=".1;1;.1" dur="2.4s" begin="-.8s" repeatCount="indefinite"/></circle>
+      <circle cx="845" cy="71" r="1.9"><animate attributeName="opacity" values=".1;1;.1" dur="2s" begin="-.4s" repeatCount="indefinite"/></circle>
+      <circle cx="965" cy="103" r="2.2"><animate attributeName="opacity" values=".1;1;.1" dur="2.6s" begin="-1.2s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <text x="600" y="118" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" letter-spacing="4" text-anchor="middle">DEPTH • MOTION • CODE • CRAFT</text>
+    <rect x="1" y="1" width="1198" height="126" rx="21" fill="none" stroke="#60a5fa" stroke-opacity=".18"/>
+  </g>
+</svg>
