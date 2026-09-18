@@ -60,9 +60,9 @@
     </g>
 
     <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" text-anchor="middle">
-      <text x="600" y="46" fill="#e2e8f0" font-size="13" letter-spacing="7">PHI HÙNG // DRAGON CORE</text>
-      <text x="600" y="76" fill="url(#neon)" font-size="22" font-weight="700" letter-spacing="5" filter="url(#glow)">3D NEON ASCENSION</text>
-      <text x="600" y="96" fill="#94a3b8" font-size="9" letter-spacing="4">ANIMATED PROFILE SIGNATURE</text>
+      <text x="600" y="46" fill="#e2e8f0" font-size="13" letter-spacing="7">PHI HÙNG // SYSTEM CORE</text>
+      <text x="600" y="76" fill="url(#neon)" font-size="22" font-weight="700" letter-spacing="5" filter="url(#glow)">CYBER DRAGON SIGNATURE</text>
+      <text x="600" y="96" fill="#94a3b8" font-size="9" letter-spacing="4">BUILD · TEST · IMPROVE</text>
     </g>
 
     <rect x="1" y="1" width="1198" height="116" rx="21" fill="none" stroke="url(#neon)" stroke-opacity=".32"/>
