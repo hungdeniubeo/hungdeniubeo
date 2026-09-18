@@ -43,6 +43,10 @@
   </a>
 </p>
 
+<p align="center">
+  <img src="./assets/phi-hung-dragon-banner.jpg" width="100%" alt="Premium 3D Chinese dragon banner for PHI HÙNG" />
+</p>
+
 ---
 
 ## ✦ Hello, I’m PHI HÙNG
