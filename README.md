@@ -44,7 +44,15 @@
 </p>
 
 <p align="center">
-  <img src="./assets/phi-hung-dragon-banner.jpg" width="100%" alt="Premium 3D Chinese dragon banner for PHI HÙNG" />
+  <img src="./assets/dragon-hud-top.svg" width="100%" alt="PHI HÙNG animated Dragon Core HUD" />
+  <br />
+  <img src="./assets/phi-hung-dragon-banner-animated.gif" width="100%" alt="Animated 3D Chinese dragon banner for PHI HÙNG" />
+  <br />
+  <img src="./assets/dragon-hud-bottom.svg" width="100%" alt="Animated cyber perspective stage" />
+</p>
+
+<p align="center">
+  <samp>⚡ DRAGON MODE // ONLINE · DEPTH LAYER // ACTIVE · BUILD ENERGY // MAX</samp>
 </p>
 
 ---
