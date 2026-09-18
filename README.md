@@ -5,7 +5,7 @@
 
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,45:0f172a,100:2563eb&height=230&section=header&text=PHI%20H%C3%9ANG&fontSize=64&fontColor=ffffff&fontAlignY=36&desc=IT%20Support%20%7C%20Software%20Engineering%20%7C%20Building%20useful%20things&descAlignY=58&descSize=17&animation=fadeIn"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,45:0f172a,100:2563eb&height=230&section=header&text=PHI%20H%C3%99NG&fontSize=64&fontColor=ffffff&fontAlignY=36&desc=IT%20Support%20%7C%20Software%20Engineering%20%7C%20Building%20useful%20things&descAlignY=58&descSize=17&animation=fadeIn"
     width="100%"
     alt="PHI HÙNG — IT Support and Software Engineering"
   />
