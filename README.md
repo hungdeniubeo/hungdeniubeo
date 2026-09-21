@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-header.svg" width="92%" alt="Phi Hung — GitHub profile" />
+  <img src="./assets/profile-header.svg" width="96%" alt="Phi Hung — GitHub profile" />
 </p>
 
 <p align="center">
@@ -10,58 +10,35 @@
   <a href="https://www.youtube.com/@phihung3922-t6f">YouTube</a>
 </p>
 
-<h1 align="center">Hi, I'm Phi Hung.</h1>
-
 <p align="center">
-  <strong>IT Support · Software Development · QA &amp; Automation</strong><br>
-  I build practical tools for workflows that should be simpler.
+  <strong>IT Support → Software Development · QA &amp; Automation</strong><br>
+  <sub>Building practical tools around real problems.</sub>
 </p>
 
-<table>
-  <tr>
-    <td width="62%" valign="top">
-      <h2>About</h2>
-      <p>I work in <strong>IT Support</strong>, and I like building software when a workflow starts getting annoying.</p>
-      <p>Most of my projects begin with something small: too many repeated steps, a schedule that's painful to manage, a UI that could be clearer, or a process that should have been automated.</p>
-      <p>I learn by fixing the problem first and figuring out the rest on the way.</p>
-    </td>
-    <td width="38%" valign="top">
-      <h2>These days</h2>
-      <p><strong>Building</strong><br><a href="https://github.com/hungdeniubeo/Schedulework-Web">ScheduleWork Web</a></p>
-      <p><strong>Improving</strong><br>Backend architecture · QA · edge cases</p>
-      <p><strong>Exploring</strong><br>Automation · small AI experiments</p>
-    </td>
-  </tr>
-</table>
+## About
+
+> I work in **IT Support**, and I like building software when a workflow starts getting annoying.
+
+Most of my projects begin with something small: too many repeated steps, a schedule that's painful to manage, a UI that could be clearer, or a process that should have been automated. I prefer useful software over impressive demos, and I learn by fixing the problem first.
+
+| Current role | Building now | Exploring |
+| --- | --- | --- |
+| `IT Support` | **[ScheduleWork Web](https://github.com/hungdeniubeo/Schedulework-Web)** | QA · automation · AI tools |
 
 ---
 
-## Projects I care about
+## Featured work
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/hungdeniubeo/Schedulework-Web">ScheduleWork Web</a></h3>
-      <p>A scheduling workspace where employees submit availability and admins arrange shifts, review conflicts, publish schedules, and manage the weekly workflow.</p>
-      <p><code>React</code> <code>TypeScript</code> <code>Supabase</code> <code>PostgreSQL</code> <code>Vite</code></p>
-      <p><a href="https://schedulework-web.vercel.app/">Live site</a> · <a href="https://github.com/hungdeniubeo/Schedulework-Web">Source</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/hungdeniubeo/Schedulework">ScheduleWork Desktop</a></h3>
-      <p>The original offline desktop app for building weekly staff schedules without a server. It includes drag-and-drop scheduling, conflict checks, split shifts, staffing totals, and export.</p>
-      <p><code>Tauri</code> <code>React</code> <code>TypeScript</code> <code>Rust</code></p>
-      <p><a href="https://github.com/hungdeniubeo/Schedulework">Source</a></p>
-    </td>
-  </tr>
-</table>
+| [ScheduleWork Web](https://github.com/hungdeniubeo/Schedulework-Web) | [ScheduleWork Desktop](https://github.com/hungdeniubeo/Schedulework) |
+| --- | --- |
+| A scheduling workspace where employees submit availability and admins arrange shifts, review conflicts, publish schedules, and manage the weekly workflow. | The original offline desktop app for building weekly staff schedules without a server. It includes drag-and-drop scheduling, conflict checks, split shifts, staffing totals, and export. |
+| `React` `TypeScript` `Supabase` `PostgreSQL` `Vite`<br><br>[Live site](https://schedulework-web.vercel.app/) · [Source](https://github.com/hungdeniubeo/Schedulework-Web) | `Tauri` `React` `TypeScript` `Rust`<br><br>[Source](https://github.com/hungdeniubeo/Schedulework) |
 
 ## Selected projects
 
-| Project | Notes |
-| --- | --- |
-| **[Traffic Sign Recognition](https://github.com/hungdeniubeo/Traffic-sign)** | A CNN project for recognizing traffic signs from images and webcam input.<br><sub>Python · TensorFlow · Keras · OpenCV</sub> |
-| **[Bus Booking](https://github.com/hungdeniubeo/Busbooking)** | A full-stack booking app for routes, schedules, seats, and reservations.<br><sub>React · Node.js · MySQL</sub> |
-| **[Personal Portfolio](https://hungdeniubeo.github.io/)** | My small corner of the web for projects and experiments.<br><sub>HTML · CSS · JavaScript</sub> |
+| [Traffic Sign Recognition](https://github.com/hungdeniubeo/Traffic-sign) | [Bus Booking](https://github.com/hungdeniubeo/Busbooking) | [Personal Portfolio](https://hungdeniubeo.github.io/) |
+| --- | --- | --- |
+| A CNN project for recognizing traffic signs from images and webcam input.<br><br>`Python` `TensorFlow` `Keras` `OpenCV` | A full-stack booking app for routes, schedules, seats, and reservations.<br><br>`React` `Node.js` `MySQL` | My small corner of the web for projects and experiments.<br><br>`HTML` `CSS` `JavaScript` |
 
 <details>
   <summary><strong>More / older experiments</strong></summary>
@@ -73,30 +50,15 @@
 
 ---
 
-## Tools I reach for
+## Stack
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <strong>Frontend</strong><br>
-      <code>React</code> <code>TypeScript</code> <code>JavaScript</code> <code>HTML</code> <code>CSS</code> <code>Tailwind CSS</code> <code>Vite</code>
-    </td>
-    <td width="33%" valign="top">
-      <strong>Backend &amp; data</strong><br>
-      <code>Node.js</code> <code>Java</code> <code>Spring Boot</code> <code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>MySQL</code> <code>Supabase</code>
-    </td>
-    <td width="34%" valign="top">
-      <strong>Desktop &amp; tooling</strong><br>
-      <code>Tauri</code> <code>Rust</code> <code>Git</code> <code>GitHub Actions</code> <code>Docker</code> <code>Postman</code>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="3" valign="top">
-      <strong>The less glamorous part</strong><br>
-      Debugging · manual testing · reproducing bugs · reading logs · figuring out why something only breaks on one machine
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,ts,js,python,java,spring,nodejs,rust,tauri,vite,supabase,git&amp;perline=12" alt="React, TypeScript, JavaScript, Python, Java, Spring, Node.js, Rust, Tauri, Vite, Supabase and Git" />
+</p>
+
+| Frontend | Backend &amp; data | Desktop &amp; tooling |
+| --- | --- | --- |
+| React · TypeScript · JavaScript · HTML · CSS · Tailwind CSS · Vite | Node.js · Java · Spring Boot · Python · FastAPI · PostgreSQL · MySQL · Supabase | Tauri · Rust · Git · GitHub Actions · Docker · Postman |
 
 ---
 
@@ -104,8 +66,7 @@
 
 - Making **ScheduleWork Web** feel less like a side project and more like something people can actually use every week.
 - Getting better at backend architecture instead of only making the UI work.
-- Spending more time on QA and edge cases before calling a feature “done”.
-- Automating repetitive work whenever it makes sense.
+- Spending more time on QA, edge cases, and automation before calling a feature “done”.
 
 ---
 
