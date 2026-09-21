@@ -1,190 +1,95 @@
-<!--
-  PHI HÙNG · GitHub Profile
-  Clean, professional, product-focused
--->
-
 <p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,100:1e3a8a&height=150&section=header&text=PHI%20H%C3%99NG&fontSize=42&fontColor=ffffff&fontAlignY=40&desc=IT%20Support%20%C2%B7%20Software%20Engineering%20%C2%B7%20Product%20Builder&descAlignY=66&descSize=15"
-    width="100%"
-    alt="Phi Hung"
-  />
+  <img src="./assets/profile-header.svg" width="100%" alt="Phi Hung — GitHub profile" />
 </p>
 
 <p align="center">
-  I build practical software for real workflows — with a focus on usability, reliability and maintainable code.
+  <a href="https://hungdeniubeo.github.io/">Portfolio</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:phihung3922@gmail.com">Email</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.youtube.com/@phihung3922-t6f">YouTube</a>
 </p>
 
-<p align="center">
-  <a href="https://hungdeniubeo.github.io/">
-    <img src="https://img.shields.io/badge/Portfolio-hungdeniubeo.github.io-2563eb?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="mailto:phihung3922@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-334155?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://github.com/hungdeniubeo">
-    <img src="https://img.shields.io/badge/GitHub-hungdeniubeo-111827?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-</p>
+## Hey.
+
+I work in **IT Support**, and I like building software when a workflow starts getting annoying.
+
+A lot of the things in this profile began with something small: too many repeated steps, a schedule that was painful to manage, a UI that could be clearer, or a process that should have been automated. I usually learn by fixing that problem first and figuring out the rest on the way.
+
+These days I'm spending most of my time on **ScheduleWork**, web development, QA, and automation.
 
 ---
 
-## About
+## What I'm working on
 
-I'm **Phi Hùng**, currently working in **IT Support** and building software around problems I encounter in real workflows.
+### [ScheduleWork Web](https://github.com/hungdeniubeo/Schedulework-Web)
 
-My support background made me care about the parts of software that are easy to overlook: confusing flows, repetitive work, fragile processes, unclear states and difficult troubleshooting. I enjoy turning those problems into tools that are easier to understand, use and maintain.
+The web version of my scheduling tool. Employees can submit availability, while admins can arrange shifts, review conflicts, publish schedules, and manage the weekly workflow in one place.
 
-**What I work with**
+`React` `TypeScript` `Supabase` `PostgreSQL` `Vite`
 
-- Frontend engineering with React, TypeScript and modern web tooling
-- Backend services, APIs and databases
-- Desktop applications with Tauri and Rust
-- QA, debugging, troubleshooting and workflow validation
-- Automation for repetitive operational tasks
+[Live site](https://schedulework-web.vercel.app/) · [Source](https://github.com/hungdeniubeo/Schedulework-Web)
+
+### [ScheduleWork Desktop](https://github.com/hungdeniubeo/Schedulework)
+
+This is where ScheduleWork started: an offline desktop app for building weekly staff schedules without needing a server. It has drag-and-drop scheduling, conflict checks, split shifts, staffing totals, and export.
+
+`Tauri` `React` `TypeScript` `Rust`
+
+[Source](https://github.com/hungdeniubeo/Schedulework)
 
 ---
 
-## Selected Projects
+## Other things I've built
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>ScheduleWork Web</h3>
-      <p>
-        Workforce scheduling platform for employee availability, admin planning,
-        schedule validation, publishing and export.
-      </p>
-      <p><code>React 19</code> <code>TypeScript</code> <code>Supabase</code> <code>PostgreSQL</code></p>
-      <p>
-        <a href="https://schedulework-web.vercel.app/">Live demo</a>
-        ·
-        <a href="https://github.com/hungdeniubeo/Schedulework-Web">Repository</a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>ScheduleWork Desktop</h3>
-      <p>
-        Offline-first desktop scheduler with drag-and-drop assignment,
-        conflict detection, staffing totals, split shifts and schedule export.
-      </p>
-      <p><code>Tauri 2</code> <code>React</code> <code>TypeScript</code> <code>Rust</code></p>
-      <p>
-        <a href="https://github.com/hungdeniubeo/Schedulework">Repository</a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Traffic Sign Recognition</h3>
-      <p>
-        Computer-vision project using a CNN trained on GTSRB, with preprocessing,
-        image prediction, webcam inference and evaluation.
-      </p>
-      <p><code>Python</code> <code>TensorFlow</code> <code>Keras</code> <code>OpenCV</code></p>
-      <p>
-        <a href="https://github.com/hungdeniubeo/Traffic-sign">Repository</a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Bus Booking Platform</h3>
-      <p>
-        Full-stack booking project covering routes, schedules, seat availability
-        and reservation workflows through a web interface and REST backend.
-      </p>
-      <p><code>React</code> <code>Node.js</code> <code>REST API</code> <code>MySQL</code></p>
-      <p>
-        <a href="https://github.com/hungdeniubeo/Busbooking">Repository</a>
-      </p>
-    </td>
-  </tr>
-</table>
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [Traffic Sign Recognition](https://github.com/hungdeniubeo/Traffic-sign) | A CNN project for recognizing traffic signs from images and webcam input. | Python · TensorFlow · Keras · OpenCV |
+| [Bus Booking](https://github.com/hungdeniubeo/Busbooking) | A full-stack booking app for routes, schedules, seats, and reservations. | React · Node.js · MySQL |
+| [Personal Portfolio](https://hungdeniubeo.github.io/) | My small corner of the web for projects and experiments. | HTML · CSS · JavaScript |
 
 <details>
-  <summary><strong>More projects</strong></summary>
-  <br />
+<summary><strong>More / older experiments</strong></summary>
 
-  **Wand Enhancer**  
-  .NET interoperability tooling with local configuration, client-side extensions and optional web control.  
-  <code>C#</code> <code>.NET</code> <code>WPF</code> <code>TypeScript</code>  
-  [View repository](https://github.com/hungdeniubeo/Wand-Enhancer)
+<br />
 
-  <br />
+Not every repo here is meant to look production-ready. Some are old learning projects, some are experiments, and some are tools I built because I wanted to understand how something worked.
 
-  **Personal Portfolio**  
-  Personal website for projects, technical interests and ongoing work.  
-  <code>HTML</code> <code>CSS</code> <code>JavaScript</code> <code>GitHub Pages</code>  
-  [Open portfolio](https://hungdeniubeo.github.io/)
+That mess is part of the process.
+
 </details>
 
 ---
 
-## Tech Stack
+## Things I use a lot
 
-<p align="center">
-  <img
-    src="https://skillicons.dev/icons?i=react,ts,js,html,css,tailwind,vite,tauri,rust,java,spring,python,fastapi,opencv,mysql,postgres,supabase,git,github,docker,figma&perline=11&theme=dark"
-    alt="Tech Stack"
-  />
-</p>
+**Frontend**  
+`React` `TypeScript` `JavaScript` `HTML` `CSS` `Tailwind CSS` `Vite`
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <strong>Frontend</strong><br /><br />
-      React · TypeScript · JavaScript · HTML · CSS · Tailwind CSS · Vite
-    </td>
-    <td width="33%" valign="top">
-      <strong>Backend & Data</strong><br /><br />
-      Node.js · Java · Spring Boot · Python · FastAPI · REST APIs · MySQL · PostgreSQL · Supabase
-    </td>
-    <td width="33%" valign="top">
-      <strong>Tools & Quality</strong><br /><br />
-      Git · GitHub Actions · Docker · Postman · Manual Testing · Debugging · Troubleshooting
-    </td>
-  </tr>
-</table>
+**Backend / data**  
+`Node.js` `Java` `Spring Boot` `Python` `FastAPI` `PostgreSQL` `MySQL` `Supabase`
+
+**Desktop / tooling**  
+`Tauri` `Rust` `Git` `GitHub Actions` `Docker` `Postman`
+
+**The less glamorous part**  
+Debugging · manual testing · reproducing bugs · reading logs · figuring out why something only breaks on one machine
 
 ---
 
-## GitHub Activity
+## Right now
 
-<p align="center">
-  <img
-    src="https://streak-stats.demolab.com?user=hungdeniubeo&hide_border=true&background=00000000&ring=2563EB&fire=2563EB&currStreakLabel=2563EB&sideLabels=64748B&dates=64748B"
-    alt="GitHub Streak"
-  />
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=hungdeniubeo&label=Profile%20Views&color=2563eb&style=flat-square" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/hungdeniubeo?style=flat-square&label=Followers&color=2563eb" alt="Followers" />
-  <img src="https://img.shields.io/github/last-commit/hungdeniubeo/hungdeniubeo?style=flat-square&label=Last%20Update&color=2563eb" alt="Last Update" />
-</p>
+- Making **ScheduleWork Web** feel less like a side project and more like something people can actually use every week.
+- Getting better at backend architecture instead of only making the UI work.
+- Spending more time on QA and edge cases before calling a feature “done”.
+- Automating repetitive work whenever it makes sense.
 
 ---
 
-## Current Focus
+## Find me
 
-- Improving **ScheduleWork** as a reliable scheduling product for real operational use
-- Building better full-stack workflows from frontend to database
-- Strengthening QA, debugging and automation skills
-- Shipping projects that solve an actual problem instead of existing only as demos
+If you're here because of one of my projects, opening an issue is usually the easiest way to reach me.
 
----
+For everything else:
 
-## Contact
-
-<p align="center">
-  <a href="https://hungdeniubeo.github.io/"><strong>Portfolio</strong></a>
-  &nbsp;·&nbsp;
-  <a href="mailto:phihung3922@gmail.com"><strong>Email</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/hungdeniubeo"><strong>GitHub</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://www.youtube.com/@phihung3922-t6f"><strong>YouTube</strong></a>
-</p>
-
-<p align="center">
-  <sub>Build useful things. Keep them simple. Improve them continuously.</sub>
-</p>
+**[hungdeniubeo.github.io](https://hungdeniubeo.github.io/)** · **[Email](mailto:phihung3922@gmail.com)** · **[GitHub](https://github.com/hungdeniubeo)** · **[YouTube](https://www.youtube.com/@phihung3922-t6f)**
