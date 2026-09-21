@@ -151,15 +151,15 @@ My support background made me care about the parts of software that are easy to 
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=hungdeniubeo&show_icons=true&hide_border=true&bg_color=00000000&title_color=2563eb&text_color=64748b&icon_color=2563eb"
-    height="165"
-    alt="GitHub Stats"
-  />
-  <img
     src="https://streak-stats.demolab.com?user=hungdeniubeo&hide_border=true&background=00000000&ring=2563EB&fire=2563EB&currStreakLabel=2563EB&sideLabels=64748B&dates=64748B"
-    height="165"
     alt="GitHub Streak"
   />
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=hungdeniubeo&label=Profile%20Views&color=2563eb&style=flat-square" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/hungdeniubeo?style=flat-square&label=Followers&color=2563eb" alt="Followers" />
+  <img src="https://img.shields.io/github/last-commit/hungdeniubeo/hungdeniubeo?style=flat-square&label=Last%20Update&color=2563eb" alt="Last Update" />
 </p>
 
 ---
