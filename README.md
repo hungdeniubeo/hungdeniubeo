@@ -1,95 +1,84 @@
-<a id="top"></a>
-
 <div align="center">
 
-<img src="./assets/phi-hung-dragon-banner-animated.gif" width="100%" alt="A golden Chinese dragon flying through a midnight sky — PHI HÙNG's animated signature" />
+# hungdeniubeo
 
-# PHI HÙNG
+### Building small apps that feel good to use.
 
-**IT Support · Web & Desktop Development**
+<sub>Minimal interfaces &nbsp; · &nbsp; Smooth details &nbsp; · &nbsp; Clean code</sub>
 
-I turn everyday work problems into useful software.<br />
-Clean interfaces. Practical tools. Small details that make a difference.
+<br />
+<br />
 
-[**Explore my work**](#selected-work) &nbsp; · &nbsp; [**My toolbox**](#toolbox) &nbsp; · &nbsp; [**Email me**](mailto:phihung3922@gmail.com)
+<a href="https://github.com/hungdeniubeo?tab=followers"><img src="https://img.shields.io/github/followers/hungdeniubeo?style=flat-square&label=followers&labelColor=0d1117&color=6e56cf" alt="GitHub followers" /></a>
+<a href="https://github.com/hungdeniubeo?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fhungdeniubeo&query=%24.public_repos&label=repos&style=flat-square&labelColor=0d1117&color=6e56cf" alt="Public repositories" /></a>
+
+<br />
+<br />
+
+[About](#about) &nbsp; / &nbsp; [Stack](#stack) &nbsp; / &nbsp; [Projects](#projects) &nbsp; / &nbsp; [Contact](#contact)
 
 </div>
 
-## A little about me
+## About
 
-I'm **Nguyễn Hà Phi Hùng**, a software developer based in Vietnam with a background in IT support. I like understanding where a workflow gets frustrating, then building something that makes it easier.
+I build **shift-scheduling tools for real teams** — an offline desktop app and a web version. I care about interfaces that are compact, calm, and quick to use.
 
-- **Building:** scheduling software and a personal IT support ticket system.
-- **Designing:** compact, responsive interfaces with clear interactions.
-- **Working across:** web apps, offline desktop tools, macOS, and Windows.
+- Work across **macOS** and **Windows**
+- Focus on **UI polish**, subtle animations, and simple workflows
+- Keep improving my **design and UX skills**
 
-## Selected work
-
-<p align="center">
-  <a href="https://github.com/hungdeniubeo/Schedulework-Web"><img src="./assets/featured-scheduling.svg" width="49%" alt="ScheduleWork Web — illustrated weekly shift planner" /></a>
-  <a href="https://github.com/hungdeniubeo/it-support-ticket"><img src="./assets/featured-support.svg" width="49%" alt="IT Support Ticket — illustrated support dashboard" /></a>
-</p>
-
-| Project | What I built | Stack |
-| :--- | :--- | :--- |
-| **[ScheduleWork Web](https://github.com/hungdeniubeo/Schedulework-Web)** | Employee shift registration, admin scheduling, conflict checks, and published weekly schedules. | React · TypeScript · Supabase |
-| **[IT Support Ticket](https://github.com/hungdeniubeo/it-support-ticket)** | A personal helpdesk to track issues, investigations, root causes, solutions, and attachments. | React · TypeScript · Supabase |
-| **[ScheduleWork Desktop](https://github.com/hungdeniubeo/Schedulework)** | An offline shift planner with drag-and-drop scheduling, conflict detection, and high-resolution JPG export. | Tauri · React · TypeScript · Rust |
-
-<p align="right"><a href="https://github.com/hungdeniubeo?tab=repositories"><b>Browse all repositories →</b></a></p>
-
-## Toolbox
-
-| Where I work | What I use |
-| :--- | :--- |
-| **Interfaces** | `React` · `TypeScript` · `Vite` · `Tailwind CSS` |
-| **Desktop applications** | `Tauri` · `Rust` |
-| **Authentication & data** | `Supabase` · `PostgreSQL` |
-| **Development workflow** | `Git` · `GitHub` · `GitHub Actions` · `VS Code` |
-
-## GitHub activity
+## Stack
 
 <p align="center">
-  <img src="./profile-summary-card-output/radical/0-profile-details.svg" width="100%" alt="PHI HÙNG's GitHub contribution history, generated from GitHub activity" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react,ts,vite,tailwind,tauri,supabase,git,vscode&theme=dark&perline=8" />
+    <img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind,tauri,supabase,git,vscode&theme=light&perline=8" width="440" alt="React, TypeScript, Vite, Tailwind CSS, Tauri, Supabase, Git, and VS Code" />
+  </picture>
 </p>
 
-<p align="center">
-  <img src="./profile-summary-card-output/radical/3-stats.svg" width="49%" alt="GitHub repository, star, and contribution statistics" />
-  <img src="./profile-summary-card-output/radical/2-most-commit-language.svg" width="49%" alt="Languages most frequently used in commits — activity data, not a measure of proficiency" />
+<p align="center"><sub>React · TypeScript · Vite · Tailwind CSS · Tauri · Supabase · Git · VS Code</sub></p>
+
+## Projects
+
+### [Schedulework-Web ↗](https://github.com/hungdeniubeo/Schedulework-Web)
+
+**Shift planning, on the web.**
+
+A web app for planning work shifts, with an admin page to manage registration weeks.
+
+<p>
+  <img src="https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61dafb" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-20232a?style=flat-square&logo=typescript&logoColor=3178c6" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Vite-20232a?style=flat-square&logo=vite&logoColor=a78bfa" alt="Vite" />
 </p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hungdeniubeo/hungdeniubeo/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hungdeniubeo/hungdeniubeo/output/github-contribution-grid-snake.svg" />
-  <img src="https://raw.githubusercontent.com/hungdeniubeo/hungdeniubeo/output/github-contribution-grid-snake.svg" width="100%" alt="An animated snake tracing my GitHub contribution grid" />
-</picture>
-
-<details>
-<summary><b>View my contribution skyline in 3D</b></summary>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/hungdeniubeo/hungdeniubeo/output/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="A 3D skyline of my GitHub contributions" />
-</p>
-
-</details>
-
-<details>
-<summary><b>Design inspiration & credits</b></summary>
-
-Inspired by the personal branding and project presentation of [DenverCoder1](https://github.com/DenverCoder1/DenverCoder1) and [anuraghazra](https://github.com/anuraghazra/anuraghazra), and the contribution animation on [Platane's profile](https://github.com/Platane/Platane). The introduction, project descriptions, and project illustrations are customized for this profile.
-
-Activity visuals: [GitHub Profile Summary Cards](https://github.com/vn7n24fzkq/github-profile-summary-cards), [snk](https://github.com/Platane/snk), and [GitHub Profile 3D Contrib](https://github.com/yoshi389111/github-profile-3d-contrib).
-
-</details>
+[Explore the repository →](https://github.com/hungdeniubeo/Schedulework-Web)
 
 ---
 
+### [Schedulework ↗](https://github.com/hungdeniubeo/Schedulework)
+
+**Your schedule, right on your desktop.**
+
+An offline desktop app with drag-and-drop shift planning and JPG export.
+
+<p>
+  <img src="https://img.shields.io/badge/Tauri-20232a?style=flat-square&logo=tauri&logoColor=ffc131" alt="Tauri" />
+  <img src="https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61dafb" alt="React" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-20232a?style=flat-square&logo=tailwindcss&logoColor=38bdf8" alt="Tailwind CSS" />
+</p>
+
+[Explore the repository →](https://github.com/hungdeniubeo/Schedulework)
+
+## Contact
+
 <div align="center">
 
-**Have a workflow that could be simpler? Let's talk.**
+**Let's build something useful.**
 
-[phihung3922@gmail.com](mailto:phihung3922@gmail.com) &nbsp; · &nbsp; [GitHub](https://github.com/hungdeniubeo) &nbsp; · &nbsp; [Back to top ↑](#top)
+<a href="mailto:phihung3922@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=flat-square&logo=gmail&logoColor=white" alt="Email Phi Hùng" /></a>
+<a href="https://github.com/hungdeniubeo"><img src="https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=white" alt="GitHub profile" /></a>
 
-<sub>Understand the problem. Build the tool. Refine the experience.</sub>
+<sub>Small apps. Thoughtful details. Everyday usefulness.</sub>
 
 </div>
