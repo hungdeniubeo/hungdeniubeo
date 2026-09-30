@@ -1,10 +1,12 @@
+<a id="top"></a>
+
 <div align="center">
 
 # hungdeniubeo
 
 ### Building small apps that feel good to use.
 
-<sub>Minimal interfaces &nbsp; · &nbsp; Smooth details &nbsp; · &nbsp; Clean code</sub>
+<img src="./assets/profile-typing.svg" width="620" alt="Minimal interfaces · Smooth details · Clean code" />
 
 <br />
 <br />
@@ -42,6 +44,8 @@ I build **shift-scheduling tools for real teams** — an offline desktop app and
 
 ### [Schedulework-Web ↗](https://github.com/hungdeniubeo/Schedulework-Web)
 
+<img src="https://img.shields.io/badge/Web_app-6e56cf?style=flat-square" alt="Web application" />
+
 **Shift planning, on the web.**
 
 A web app for planning work shifts, with an admin page to manage registration weeks.
@@ -52,11 +56,14 @@ A web app for planning work shifts, with an admin page to manage registration we
   <img src="https://img.shields.io/badge/Vite-20232a?style=flat-square&logo=vite&logoColor=a78bfa" alt="Vite" />
 </p>
 
-[Explore the repository →](https://github.com/hungdeniubeo/Schedulework-Web)
+<a href="https://github.com/hungdeniubeo/Schedulework-Web"><img src="https://img.shields.io/badge/View_source_%E2%86%92-6e56cf?style=flat-square&logo=github&logoColor=white" alt="View Schedulework-Web source code" /></a>
 
 ---
 
 ### [Schedulework ↗](https://github.com/hungdeniubeo/Schedulework)
+
+<img src="https://img.shields.io/badge/Desktop_app-6e56cf?style=flat-square" alt="Desktop application" />
+<img src="https://img.shields.io/badge/Offline-20232a?style=flat-square&logoColor=white" alt="Works offline" />
 
 **Your schedule, right on your desktop.**
 
@@ -68,7 +75,7 @@ An offline desktop app with drag-and-drop shift planning and JPG export.
   <img src="https://img.shields.io/badge/Tailwind_CSS-20232a?style=flat-square&logo=tailwindcss&logoColor=38bdf8" alt="Tailwind CSS" />
 </p>
 
-[Explore the repository →](https://github.com/hungdeniubeo/Schedulework)
+<a href="https://github.com/hungdeniubeo/Schedulework"><img src="https://img.shields.io/badge/View_source_%E2%86%92-6e56cf?style=flat-square&logo=github&logoColor=white" alt="View Schedulework source code" /></a>
 
 ## Contact
 
@@ -76,9 +83,14 @@ An offline desktop app with drag-and-drop shift planning and JPG export.
 
 **Let's build something useful.**
 
-<a href="mailto:phihung3922@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=flat-square&logo=gmail&logoColor=white" alt="Email Phi Hùng" /></a>
+<a href="mailto:phihung3922@gmail.com"><img src="https://img.shields.io/badge/Email-6e56cf?style=flat-square&logo=gmail&logoColor=white" alt="Email Phi Hùng" /></a>
 <a href="https://github.com/hungdeniubeo"><img src="https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=white" alt="GitHub profile" /></a>
 
+<br />
+<br />
+
 <sub>Small apps. Thoughtful details. Everyday usefulness.</sub>
+
+[Back to top ↑](#top)
 
 </div>

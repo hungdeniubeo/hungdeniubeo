@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="36" viewBox="0 0 620 36" role="img" aria-labelledby="title desc">
+  <title id="title">Minimal interfaces. Smooth details. Clean code.</title>
+  <desc id="desc">A subtle typing animation alternating between interface design and web and desktop development.</desc>
+  <defs>
+    <clipPath id="line-one"><rect x="0" y="0" width="620" height="36"><animate attributeName="width" values="0;620;620;0;0" keyTimes="0;.18;.46;.5;1" dur="10s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-two"><rect x="0" y="0" width="620" height="36"><animate attributeName="width" values="0;620;620;0;0" keyTimes="0;.18;.46;.5;1" dur="10s" begin="5s" repeatCount="indefinite" /></rect></clipPath>
+  </defs>
+  <g fill="#9b80ec" font-family="Consolas, 'Liberation Mono', monospace" font-size="17" text-anchor="middle">
+    <g opacity="1" clip-path="url(#line-one)">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.47;.5;1" dur="10s" repeatCount="indefinite" />
+      <text x="310" y="25">Minimal interfaces · Smooth details · Clean code</text>
+    </g>
+    <g opacity="0" clip-path="url(#line-two)">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.47;.5;1" dur="10s" begin="5s" repeatCount="indefinite" />
+      <text x="310" y="25">Web apps · Offline desktop tools</text>
+    </g>
+  </g>
+</svg>
