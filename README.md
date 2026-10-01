@@ -19,7 +19,7 @@ experimenting with **AI, automation, and clean user experiences**.
 <a href="mailto:phihung3922@gmail.com">
   <img src="https://img.shields.io/badge/Email-phihung3922-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
-<a href="https://www.linkedin.com/in/YOUR-LINKEDIN-ID">
+<a href="[https://www.linkedin.com/in/YOUR-LINKEDIN-ID](https://www.linkedin.com/in/phi-h%C3%B9ng/)">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
@@ -215,7 +215,7 @@ I'm always interested in useful tools, AI, automation, and software projects.
   <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 
-<a href="https://www.linkedin.com/in/YOUR-LINKEDIN-ID">
+<a href="[https://www.linkedin.com/in/YOUR-LINKEDIN-ID](https://www.linkedin.com/in/phi-h%C3%B9ng/)">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
