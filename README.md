@@ -34,18 +34,18 @@ experimenting with **AI, automation, and clean user experiences**.
 
 ## About Me
 
-```text
-Role        IT Support
-Focus       Web apps • Desktop apps • Automation
-Interested  AI • Software Development • UI/UX
-Approach    Build something useful → refine it → make it smooth
-```
+I'm an **IT Support professional** who enjoys building software that makes everyday work simpler.
 
-I enjoy turning everyday problems into small tools that are simple,
-fast, and actually useful.
+My interests sit at the intersection of **software development, AI, automation, and practical UI/UX**. I usually build tools around problems I actually encounter — scheduling, internal workflows, productivity, and small utilities for web and desktop.
 
-Most of my projects start from something I personally want to improve —
-scheduling, IT workflows, automation, or productivity.
+| | |
+| --- | --- |
+| **Current role** | IT Support |
+| **Building** | Web apps, desktop apps, internal tools |
+| **Interested in** | AI, automation, software development |
+| **Focus** | Simple interfaces, useful features, reliable workflows |
+
+I prefer building something useful first, then refining the details until it feels fast, clear, and polished.
 
 ---
 
