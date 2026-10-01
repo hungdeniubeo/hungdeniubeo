@@ -171,31 +171,26 @@ My personal space for projects, experiments, and things I'm currently building.
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=hungdeniubeo&show_icons=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&ring_color=58A6FF" />
-
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=hungdeniubeo&hide_border=true&background=0D1117&stroke=30363D&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=C9D1D9&currStreakNum=F0F6FC&sideNums=F0F6FC&dates=8B949E" />
-
-</div>
-
-<br/>
-
-<div align="center">
-
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=hungdeniubeo&bg_color=0D1117&color=C9D1D9&line=58A6FF&point=F0F6FC&area=true&hide_border=true" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=hungdeniubeo&show_icons=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&ring_color=58A6FF" alt="Hung's GitHub stats" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=hungdeniubeo&hide_border=true&background=0D1117&stroke=30363D&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=C9D1D9&currStreakNum=F0F6FC&sideNums=F0F6FC&dates=8B949E" alt="Hung's contribution streak" />
 
 </div>
+
+<p align="center">
+  <sub>Public repository activity and contribution consistency.</sub>
+</p>
 
 ---
 
 ## Currently Exploring
 
-```text
-AI-assisted development
-Better UI/UX for practical tools
-Automation for repetitive workflows
-Desktop apps with Tauri
-Full-stack apps with Supabase
-```
+| Area | Current focus |
+| --- | --- |
+| AI-assisted development | Using AI to speed up implementation, debugging, and iteration |
+| Interface design | Building cleaner, faster, and more practical user experiences |
+| Automation | Reducing repetitive manual workflows with small tools and scripts |
+| Desktop applications | Lightweight cross-platform apps with Tauri |
+| Full-stack development | Building practical React + Supabase applications |
 
 ---
 
